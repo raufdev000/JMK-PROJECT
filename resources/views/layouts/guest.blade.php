@@ -11,7 +11,14 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
-        <!-- Scripts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body { background: #f8f9fa; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+    .login-box { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
+    .login-box img { width: 80px; display: block; margin: 0 auto 20px; }
+    input[type=email], input[type=password] { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 6px; }
+    button[type=submit] { width: 100%; background: #6c63ff; color: white; padding: 12px; border: none; border-radius: 6px; cursor: pointer; }
+</style>
        
     </head>
     <body class="font-sans text-gray-900 antialiased">
