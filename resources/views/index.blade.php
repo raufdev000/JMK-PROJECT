@@ -277,7 +277,7 @@
 </div>
 
  <div class="hero-image mb-0">
-  <img src="../images/pexels-parimoofarhaan-29625344.jpg" alt="Hero Image">
+  <img src="../images/pexels-parimoofarhaan-29625344.webp" alt="Hero Image">
   
   <!-- Hero Text Carousel Overlay -->
   <div class="hero-text-overlay">
@@ -432,7 +432,7 @@
         <!-- CARD 1 -->
      <!-- CARD 1 -->
 <div class="card custom-card">
-  <img src="../images/Watch Maintenance.jpg" alt="">
+  <img src="../images/Watch Maintenance (2).webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Watches') }}" class="btn custom-btn">Watch Repairing</a>
   </div>
@@ -440,7 +440,7 @@
 
 <!-- CARD 2 -->
 <div class="card custom-card">
-  <img src="../images/Repairing And Upgrade Mobile Phone Electronic Computer Hardware And Technology Concept Photo And Picture For Free Download - Pngtree (1).jpg" alt="">
+  <img src="../images/iphone17.webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Phone') }}" class="btn custom-btn">Phone Repairing</a>
   </div>
@@ -448,13 +448,13 @@
 
 <!-- CARD 3 -->
 <div class="card custom-card">
-  <img src="../images/download (13).jpg" alt="">
+  <img src="../images/download (13) (1).webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Key') }}" class="btn custom-btn">Key duplicating</a>
   </div>
 </div>
 <div class="card custom-card">
-  <img src="../images/5ca01bfb6130937062e2212884654589.jpg" alt="">
+  <img src="../images/5ca01bfb6130937062e2212884654589.webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('suitcase') }}" class="btn custom-btn">Suitcase repairing</a>
   </div>
@@ -462,7 +462,7 @@
 
 <!-- CARD 4 -->
 <div class="card custom-card">
-  <img src="../images/Elevate Your Style with Premium Handmade Leather Accessories for a Classic Look!.jpg" alt="">
+  <img src="../images/Elevate Your Style with Premium Handmade Leather Accessories for a Classic Look!.webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('leather') }}" class="btn custom-btn">Leather Work's</a>
   </div>
@@ -470,7 +470,7 @@
 
 <!-- CARD 5 -->
 <div class="card custom-card">
-  <img src="../images/download (12).jpg" alt="">
+  <img src="../images/download (12).webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Lock') }}" class="btn custom-btn">Lock repairing</a>
   </div>
@@ -478,7 +478,7 @@
 
 <!-- CARD 6 -->
 <div class="card custom-card">
-  <img src="../images/shoe.jpg" alt="">
+  <img src="../images/shoe.webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Shoe') }}" class="btn custom-btn">Shoe Repairing</a>
   </div>
@@ -486,7 +486,7 @@
 
 <!-- CARD 6 -->
 <div class="card custom-card">
-  <img src="../images/5ca01bfb6130937062e2212884654589.jpg" alt="">
+  <img src="../images/5ca01bfb6130937062e2212884654589.webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('suitcase') }}" class="btn custom-btn">Suitcase Repairing</a>
   </div>
@@ -494,7 +494,7 @@
 
 <!-- CARD 6 -->
 <div class="card custom-card">
-  <img src="../images/accescard.jpg" alt="">
+  <img src="../images/accescard.webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Access') }}" class="btn custom-btn">Access card Repairing</a>
   </div>
@@ -504,7 +504,7 @@
 
 <!-- CARD 1 Duplicate -->
 <div class="card custom-card">
-  <img src="../images/Watch Maintenance.jpg">
+  <img src="../images/Watch Maintenance (1).webp">
   <div class="card-body text-center">
     <a href="{{ route('Watches') }}" class="btn custom-btn">Watch Repairing</a>
   </div>
@@ -512,7 +512,7 @@
 
 <!-- CARD 2 Duplicate -->
 <div class="card custom-card">
-  <img src="../images/Repairing And Upgrade Mobile Phone Electronic Computer Hardware And Technology Concept Photo And Picture For Free Download - Pngtree (1).jpg">
+  <img src="../images/iphone17.webp">
   <div class="card-body text-center">
     <a href="{{ route('Phone') }}" class="btn custom-btn">Phone Repairing</a>
   </div>
@@ -520,7 +520,7 @@
 
 <!-- CARD 3 Duplicate -->
 <div class="card custom-card">
-  <img src="../images/download (13).jpg">
+  <img src="../images/download (13) (1).webp">
   <div class="card-body text-center">
     <a href="{{ route('Key') }}" class="btn custom-btn">Key duplicating</a>
   </div>
@@ -528,7 +528,7 @@
 
 <!-- CARD 4 Duplicate -->
 <div class="card custom-card">
-  <img src="../images/Elevate Your Style with Premium Handmade Leather Accessories for a Classic Look!.jpg">
+  <img src="../images/Elevate Your Style with Premium Handmade Leather Accessories for a Classic Look!.webp">
   <div class="card-body text-center">
     <a href="{{ route('leather') }}" class="btn custom-btn">Leather Work's</a>
   </div>
@@ -536,7 +536,7 @@
 
 <!-- CARD 5 Duplicate -->
 <div class="card custom-card">
-  <img src="../images/download (12).jpg">
+  <img src="../images/download (12).webp">
   <div class="card-body text-center">
     <a href="{{ route('Lock') }}" class="btn custom-btn">lock repairing</a>
   </div>
@@ -544,7 +544,7 @@
 
 <!-- CARD 6 Duplicate -->
 <div class="card custom-card">
-  <img src="../images/shoe.jpg">
+  <img src="../images/shoe.webp">
   <div class="card-body text-center">
     <a href="{{ route('Shoe') }}" class="btn custom-btn">Shoe Repairing</a>
   </div>
@@ -552,7 +552,7 @@
 
 <!-- CARD 6 -->
 <div class="card custom-card">
-  <img src="../images/5ca01bfb6130937062e2212884654589.jpg" alt="">
+  <img src="../images/5ca01bfb6130937062e2212884654589.webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('suitcase') }}" class="btn custom-btn">Suitcase Repairing</a>
   </div>
@@ -560,7 +560,7 @@
 
 <!-- CARD 6 -->
 <div class="card custom-card">
-  <img src="../images/accescard.jpg" alt="">
+  <img src="../images/accescard.webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Access') }}" class="btn custom-btn">Access card Repairing</a>
   </div>
@@ -705,12 +705,12 @@
       <!-- Specialists Images -->
       <div class="col-md-6 d-flex justify-content-around">
         <div class="specialist-img-box" data-id="1">
-          <img src="../images/Warehouse ecommerce.jpg" class="img-fluid rounded-circle specialist-img" alt="Specialist 1">
+          <img src="../images/Warehouse ecommerce (2).webp" class="img-fluid rounded-circle specialist-img" alt="Specialist 1">
           <h6 class="text-center mt-2">John Doe</h6>
           
         </div>
         <div class="specialist-img-box" data-id="2">
-          <img src="../images/specialist.jpg" class="img-fluid rounded-circle specialist-img" alt="Specialist 2">
+          <img src="../images/specialist.webp" class="img-fluid rounded-circle specialist-img" alt="Specialist 2">
           <h6 class="text-center mt-2">Jane Smith</h6>
         </div>
       </div>
