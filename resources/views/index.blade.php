@@ -4,20 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Repair shop</title>
-    <!-- Favicon Code - Paste this in the <head> section of your HTML -->
 
-<!-- Correct Favicon Code -->
-<link rel="icon" type="image/png" href="../images/jmk_logo.png">
-<link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">
-<link rel="apple-touch-icon" href="../images/jmk_logo.png">
+<link rel="icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
+<link rel="shortcut icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
+<link rel="apple-touch-icon" href="{{ asset('images/jmk_logo.png') }}">
 
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <!-- Example: Roboto -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
      <style>
-      /* Loading Screen Styles */
       .loading-screen {
         position: fixed;
         top: 0;
@@ -39,7 +35,6 @@
         height: 300px;
       }
 
-      /* SVG Animations */
       #lockSvg {
         width: 100%;
         height: 100%;
@@ -73,7 +68,6 @@
         opacity: 0;
       }
 
-      /* Loading Text */
       .loading-text-container {
         margin-top: 40px;
         text-align: center;
@@ -132,7 +126,6 @@
         }
       }
 
-      /* Hide main content initially */
       body.loading {
         overflow: hidden;
       }
@@ -147,7 +140,6 @@
  <div class="loading-screen">
   <div class="lock-container">
     <svg id="lockSvg" viewBox="0 0 200 220">
-      <!-- Gradients -->
       <defs>
         <linearGradient id="lockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" style="stop-color:#d4d4d4;stop-opacity:1" />
@@ -165,42 +157,29 @@
         </radialGradient>
       </defs>
       
-      <!-- Glow Effect -->
       <circle class="glow-circle" cx="100" cy="110" r="80"/>
       
-      <!-- Lock Shackle -->
       <path class="lock-shackle-svg" 
             d="M 70 70 Q 70 40, 100 40 Q 130 40, 130 70" 
             stroke-width="14"/>
       
-      <!-- Lock Body -->
       <rect class="lock-body-svg" x="55" y="85" width="90" height="70" rx="12"/>
       
-      <!-- Keyhole -->
       <circle class="keyhole-svg" cx="100" cy="115" r="8"/>
       <path class="keyhole-svg" d="M 96 120 L 104 120 L 102 135 L 98 135 Z"/>
       
-      <!-- Key (starts off-screen) -->
       <g class="key-svg" transform="translate(-100, 110)">
-        <!-- Key Bow (handle) -->
         <circle cx="0" cy="0" r="15" fill="url(#keyGradient)"/>
         <circle cx="0" cy="0" r="6" fill="#1a1a1a"/>
-        
-        <!-- Key Blade -->
         <rect x="12" y="-4" width="60" height="8" rx="2" fill="url(#keyGradient)"/>
-        
-        <!-- Key Teeth -->
         <rect x="52" y="-8" width="4" height="6" fill="url(#keyGradient)"/>
         <rect x="58" y="-10" width="4" height="10" fill="url(#keyGradient)"/>
         <rect x="64" y="-8" width="4" height="7" fill="url(#keyGradient)"/>
-        
-        <!-- Key Tip -->
         <polygon points="72,-4 78,0 72,4" fill="url(#keyGradient)"/>
       </g>
     </svg>
   </div>
   
-  <!-- Loading Text -->
   <div class="loading-text-container">
     <div class="loading-text">
       
@@ -208,26 +187,21 @@
     </div>
   </div>
 </div>
-    <!-- Main Content -->
     <div class="main-content">
 <header class="hero-section font-ui">
 
-  <!-- NAVBAR -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0 start-0 w-100 py-3">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0 start-0 w-100 py-3">
     <div class="container">
 
-      <!-- LOGO LEFT -->
       <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="../images/jmk_logo.png" alt="Logo" height="55" class="me-2">
+        <img src="{{ asset('images/jmk_logo.png') }}" alt="Logo" height="55" class="me-2">
         <span class="fw-semibold shop-name d-none d-lg-block">Juma khan shoes & watches repairing</span>
       </a>
 
-      <!-- TOGGLER -->
       <button class="navbar-toggler border-0 shadow-none red-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!-- LINKS RIGHT -->
       <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
         <ul class="navbar-nav gap-lg-4 text-center text-lg-start">
 
@@ -242,7 +216,6 @@
             <a class="nav-link" href="{{ route('contact') }}">Contact</a>
           </li>
 
-         <!-- DROPDOWN -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="{{ route('services') }}" role="button" data-bs-toggle="dropdown">
               Services
@@ -254,10 +227,10 @@
               <li><a class="dropdown-item" href="{{ route('leather') }}">Leather work's</a></li>
               <li><a class="dropdown-item" href="{{ route('Shoe') }}">Shoe Repairing</a></li>
               <li><a class="dropdown-item" href="{{ route('Key') }}">Key duplicating</a></li>
-                            <li><a class="dropdown-item" href="{{ route('suitcase') }}">Suitcase repairing</a></li>
-                            <li><a class="dropdown-item" href="{{ route('Access') }}">Access card repairing</a></li>
-                            <li><a class="dropdown-item" href="{{ route('lostcar') }}">Lost car keys</a></li>
-                            <li><a class="dropdown-item" href="{{ route('losthome') }}">Lost home kyes</a></li>
+              <li><a class="dropdown-item" href="{{ route('suitcase') }}">Suitcase repairing</a></li>
+              <li><a class="dropdown-item" href="{{ route('Access') }}">Access card repairing</a></li>
+              <li><a class="dropdown-item" href="{{ route('lostcar') }}">Lost car keys</a></li>
+              <li><a class="dropdown-item" href="{{ route('losthome') }}">Lost home kyes</a></li>
             </ul>
           </li>
 
@@ -265,7 +238,7 @@
       </div>
     </div>
   </nav>
-<!-- WhatsApp Floating Button -->
+
 <div class="whatsapp-floating-btn">
  <a href="https://wa.me/+9710505090296" target="_blank" class="whatsapp-float-link">
     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -277,19 +250,16 @@
 </div>
 
  <div class="hero-image mb-0">
-  <img src="../images/pexels-parimoofarhaan-29625344.webp" alt="Hero Image">
+  <img src="{{ asset('images/pexels-parimoofarhaan-29625344.webp') }}" alt="Hero Image">
   
-  <!-- Hero Text Carousel Overlay -->
   <div class="hero-text-overlay">
     <div class="container">
       <div class="hero-content">
-        <!-- Brand Badge -->
         <div class="brand-badge">
           <span class="badge-icon">⚡</span>
           <span>Trusted Since Years</span>
         </div>
         
-        <!-- Carousel Text Container -->
         <div class="carousel-text-wrapper">
           <h1 class="hero-main-title">Jumma Khan</h1>
           <div class="rotating-text-container">
@@ -302,10 +272,8 @@
           </div>
         </div>
         
-        <!-- Tagline -->
         <p class="hero-tagline font-ui">Where Precision Meets Craftsmanship</p>
         
-        <!-- CTA Buttons -->
         <div class="hero-cta-buttons font-ui">
           <a href="tel:+9710505090296" class="cta-btn primary-cta">
             <span>Emergency Call</span>
@@ -429,138 +397,119 @@
 
       <div class="carousel-track">
 
-        <!-- CARD 1 -->
-     <!-- CARD 1 -->
 <div class="card custom-card">
-  <img src="../images/Watch Maintenance (2).webp" alt="">
+  <img src="{{ asset('images/Watch Maintenance (2).webp') }}" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Watches') }}" class="btn custom-btn">Watch Repairing</a>
   </div>
 </div>
 
-<!-- CARD 2 -->
 <div class="card custom-card">
-  <img src="../images/iphone17.webp" alt="">
+  <img src="{{ asset('images/iphone17.webp') }}" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Phone') }}" class="btn custom-btn">Phone Repairing</a>
   </div>
 </div>
 
-<!-- CARD 3 -->
 <div class="card custom-card">
-  <img src="../images/download (13) (1).webp" alt="">
+  <img src="{{ asset('images/download (13) (1).webp') }}" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Key') }}" class="btn custom-btn">Key duplicating</a>
   </div>
 </div>
 <div class="card custom-card">
-  <img src="../images/5ca01bfb6130937062e2212884654589.webp" alt="">
+  <img src="{{ asset('images/5ca01bfb6130937062e2212884654589.webp') }}" alt="">
   <div class="card-body text-center">
     <a href="{{ route('suitcase') }}" class="btn custom-btn">Suitcase repairing</a>
   </div>
 </div>
 
-<!-- CARD 4 -->
 <div class="card custom-card">
-  <img src="../images/Elevate Your Style with Premium Handmade Leather Accessories for a Classic Look!.webp" alt="">
+  <img src="{{ asset('images/Elevate Your Style with Premium Handmade Leather Accessories for a Classic Look!.webp') }}" alt="">
   <div class="card-body text-center">
     <a href="{{ route('leather') }}" class="btn custom-btn">Leather Work's</a>
   </div>
 </div>
 
-<!-- CARD 5 -->
 <div class="card custom-card">
-  <img src="../images/download (12).webp" alt="">
+  <img src="{{ asset('images/download (12).webp') }}" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Lock') }}" class="btn custom-btn">Lock repairing</a>
   </div>
 </div>
 
-<!-- CARD 6 -->
 <div class="card custom-card">
-  <img src="../images/shoe.webp" alt="">
+  <img src="{{ asset('images/shoe.webp') }}" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Shoe') }}" class="btn custom-btn">Shoe Repairing</a>
   </div>
 </div>
 
-<!-- CARD 6 -->
 <div class="card custom-card">
-  <img src="../images/5ca01bfb6130937062e2212884654589.webp" alt="">
+  <img src="{{ asset('images/5ca01bfb6130937062e2212884654589.webp') }}" alt="">
   <div class="card-body text-center">
     <a href="{{ route('suitcase') }}" class="btn custom-btn">Suitcase Repairing</a>
   </div>
 </div>
 
-<!-- CARD 6 -->
 <div class="card custom-card">
-  <img src="../images/accescard.webp" alt="">
+  <img src="{{ asset('images/accescard.webp') }}" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Access') }}" class="btn custom-btn">Access card Repairing</a>
   </div>
 </div>
 
-<!-- DUPLICATES FOR INFINITE LOOP -->
-
-<!-- CARD 1 Duplicate -->
 <div class="card custom-card">
-  <img src="../images/Watch Maintenance (1).webp">
+  <img src="{{ asset('images/Watch Maintenance (1).webp') }}">
   <div class="card-body text-center">
     <a href="{{ route('Watches') }}" class="btn custom-btn">Watch Repairing</a>
   </div>
 </div>
 
-<!-- CARD 2 Duplicate -->
 <div class="card custom-card">
-  <img src="../images/iphone17.webp">
+  <img src="{{ asset('images/iphone17.webp') }}">
   <div class="card-body text-center">
     <a href="{{ route('Phone') }}" class="btn custom-btn">Phone Repairing</a>
   </div>
 </div>
 
-<!-- CARD 3 Duplicate -->
 <div class="card custom-card">
-  <img src="../images/download (13) (1).webp">
+  <img src="{{ asset('images/download (13) (1).webp') }}">
   <div class="card-body text-center">
     <a href="{{ route('Key') }}" class="btn custom-btn">Key duplicating</a>
   </div>
 </div>
 
-<!-- CARD 4 Duplicate -->
 <div class="card custom-card">
-  <img src="../images/Elevate Your Style with Premium Handmade Leather Accessories for a Classic Look!.webp">
+  <img src="{{ asset('images/Elevate Your Style with Premium Handmade Leather Accessories for a Classic Look!.webp') }}">
   <div class="card-body text-center">
     <a href="{{ route('leather') }}" class="btn custom-btn">Leather Work's</a>
   </div>
 </div>
 
-<!-- CARD 5 Duplicate -->
 <div class="card custom-card">
-  <img src="../images/download (12).webp">
+  <img src="{{ asset('images/download (12).webp') }}">
   <div class="card-body text-center">
     <a href="{{ route('Lock') }}" class="btn custom-btn">lock repairing</a>
   </div>
 </div>
 
-<!-- CARD 6 Duplicate -->
 <div class="card custom-card">
-  <img src="../images/shoe.webp">
+  <img src="{{ asset('images/shoe.webp') }}">
   <div class="card-body text-center">
     <a href="{{ route('Shoe') }}" class="btn custom-btn">Shoe Repairing</a>
   </div>
 </div>
 
-<!-- CARD 6 -->
 <div class="card custom-card">
-  <img src="../images/5ca01bfb6130937062e2212884654589.webp" alt="">
+  <img src="{{ asset('images/5ca01bfb6130937062e2212884654589.webp') }}" alt="">
   <div class="card-body text-center">
     <a href="{{ route('suitcase') }}" class="btn custom-btn">Suitcase Repairing</a>
   </div>
 </div>
 
-<!-- CARD 6 -->
 <div class="card custom-card">
-  <img src="../images/accescard.webp" alt="">
+  <img src="{{ asset('images/accescard.webp') }}" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Access') }}" class="btn custom-btn">Access card Repairing</a>
   </div>
@@ -574,7 +523,6 @@
   <div class="container">
     <div class="row g-4 align-items-center">
 
-      <!-- LEFT GLASS CARD (ABOUT US CONTENT) -->
       <div class="col-lg-6">
         <div class="glass-card p-4 p-md-5">
           <h5 class="text-danger fw-bold mb-2">About Our Repair Shop</h5>
@@ -596,7 +544,6 @@
         </div>
       </div>
 
-      <!-- RIGHT GLASS CARD (MODERN HIGHLIGHT BOX) -->
       <div class="col-lg-6 font-ui">
         <div class="glass-card highlight-card p-4 p-md-5 text-center text-lg-start">
           <h3 class="fw-bold mb-3">Why Choose Us?</h3>
@@ -632,11 +579,9 @@
     <h3 class="text-center mb-4">Frequently Asked Questions</h3>
     <div class="row g-4 align-items-center">
 
-      <!-- LEFT: FAQ LIST -->
       <div class="col-lg-6">
         <div class="faq-list">
 
-          <!-- FAQ Item 1 -->
           <div class="faq-item">
             <div class="faq-header d-flex justify-content-between align-items-center">
               <h6>Fast Service</h6>
@@ -649,7 +594,6 @@
             </div>
           </div>
 
-          <!-- FAQ Item 2 -->
           <div class="faq-item">
             <div class="faq-header d-flex justify-content-between align-items-center">
               <h6>Certified Technicians</h6>
@@ -661,7 +605,6 @@
             </div>
           </div>
 
-          <!-- FAQ Item 3 -->
           <div class="faq-item">
             <div class="faq-header d-flex justify-content-between align-items-center">
               <h6>Affordable Pricing</h6>
@@ -672,7 +615,6 @@
             </div>
           </div>
 
-          <!-- FAQ Item 4 -->
           <div class="faq-item">
             <div class="faq-header d-flex justify-content-between align-items-center">
               <h6>Quality Parts</h6>
@@ -686,7 +628,6 @@
         </div>
       </div>
 
-      <!-- RIGHT: IMAGE -->
       <div class="col-lg-6">
         <div class="faq-image-box">
           <img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5?auto=format&fit=crop&w=800&q=80" class="img-fluid rounded" alt="FAQ Image">
@@ -702,20 +643,17 @@
 
     <div class="row justify-content-center align-items-center g-4">
 
-      <!-- Specialists Images -->
       <div class="col-md-6 d-flex justify-content-around">
         <div class="specialist-img-box" data-id="1">
-          <img src="../images/Warehouse ecommerce (2).webp" class="img-fluid rounded-circle specialist-img" alt="Specialist 1">
+          <img src="{{ asset('images/Warehouse ecommerce (2).webp') }}" class="img-fluid rounded-circle specialist-img" alt="Specialist 1">
           <h6 class="text-center mt-2">John Doe</h6>
-          
         </div>
         <div class="specialist-img-box" data-id="2">
-          <img src="../images/specialist.webp" class="img-fluid rounded-circle specialist-img" alt="Specialist 2">
+          <img src="{{ asset('images/specialist.webp') }}" class="img-fluid rounded-circle specialist-img" alt="Specialist 2">
           <h6 class="text-center mt-2">Jane Smith</h6>
         </div>
       </div>
 
-      <!-- Specialist Data -->
       <div class="col-md-8 mt-4">
         <div class="specialist-data">
           <div class="specialist-info text-dark" data-id="1">
@@ -739,12 +677,10 @@
   <div class="container">
     <div class="row align-items-start">
 
-      <!-- LEFT: Logo & Brand -->
       <div class="col-md-3 mb-4 mb-md-0 d-flex flex-row align-items-md-start align-items-center text-center text-md-start">
-        <img src="../images/jmk_logo.png" alt="Logo" height="60" class="mb-2">
+        <img src="{{ asset('images/jmk_logo.png') }}" alt="Logo" height="60" class="mb-2">
       </div>
 
-      <!-- CENTER: Navigation Links -->
       <div class="col-md-4 mb-4 mb-md-0 text-center">
         <h6 class="fw-bold mb-3">Quick Links</h6>
         <ul class="list-unstyled">
@@ -752,11 +688,9 @@
           <li><a href="{{ route('about') }}" class="footer-link">About</a></li>
           <li><a href="{{ route('services') }}" class="footer-link">Services</a></li>
           <li><a href="{{ route('contact') }}" class="footer-link">Contact</a></li>
-         
         </ul>
       </div>
 
-      <!-- RIGHT: Contact & Social Icons -->
       <div class="col-md-5 d-flex flex-column align-items-md-end align-items-center">
         <h6 class="fw-bold mb-3">Contact Us</h6>
         <p class="mb-1 small">📍 JMk – Al Karama, Dubai, UAE</p>
@@ -796,38 +730,29 @@
 </footer>
  <script src="{{ asset('js/script.js') }}"></script>
 <script>
-        // ==============================================
-        // ONE-TIME LOADING ANIMATION
-        // Session-based: Runs only once per browser session
-        // ==============================================
-        
         function runLoadingAnimation() {
             const tl = gsap.timeline({
                 defaults: { ease: 'power2.out' }
             });
             
-            // Loading text appears
             tl.to('.loading-text', {
                 opacity: 1,
                 duration: 0.5
             })
             
-            // Key slides in from left to lock
             .to('.key-svg', {
                 opacity: 1,
-                x: 180,  // Move key to keyhole position
+                x: 180,
                 duration: 1,
                 ease: 'power2.inOut'
             }, '+=0.5')
             
-            // Key inserts into keyhole (slight push)
             .to('.key-svg', {
                 x: 185,
                 duration: 0.3,
                 ease: 'power1.in'
             })
             
-            // Key rotates 90 degrees (unlocking)
             .to('.key-svg', {
                 rotation: 90,
                 transformOrigin: '100px 110px',
@@ -835,7 +760,6 @@
                 ease: 'back.out(2)'
             })
             
-            // Glow effect appears
             .to('.glow-circle', {
                 opacity: 1,
                 scale: 1.2,
@@ -843,7 +767,6 @@
                 duration: 0.4
             }, '-=0.4')
             
-            // Lock shackle opens
             .to('.lock-shackle-svg', {
                 rotation: -45,
                 transformOrigin: '30% 100%',
@@ -851,7 +774,6 @@
                 ease: 'elastic.out(1, 0.5)'
             }, '-=0.3')
             
-            // Update text to "Unlocked"
             .to('.loading-text', {
                 scale: 1.1,
                 duration: 0.3,
@@ -860,16 +782,13 @@
                 }
             })
             
-            // Hold for a moment
             .to({}, { duration: 0.5 })
             
-            // Glow fades
             .to('.glow-circle', {
                 opacity: 0,
                 duration: 0.4
             })
             
-            // Everything fades out
             .to(['.loading-text', '#lockSvg'], {
                 opacity: 0,
                 duration: 0.6
@@ -885,21 +804,18 @@
                 display: 'none'
             })
             
-            // Main content appears
             .to('.main-content', {
                 opacity: 1,
                 duration: 0.8,
                 ease: 'power2.out',
                 onComplete: function() {
                     document.body.classList.remove('loading');
-                    // Set flag in sessionStorage that animation has played
                     sessionStorage.setItem('loadingAnimationPlayed', 'true');
                 }
             });
         }
         
         function skipLoadingAnimation() {
-            // Immediately hide loading screen and show content
             const loadingScreen = document.querySelector('.loading-screen');
             const mainContent = document.querySelector('.main-content');
             
@@ -908,32 +824,20 @@
             document.body.classList.remove('loading');
         }
         
-        // Main Logic
         window.addEventListener('load', function() {
-            // Check if animation has already played in this session
             const hasPlayed = sessionStorage.getItem('loadingAnimationPlayed');
             
             if (hasPlayed === 'true') {
-                // Skip animation - user has already seen it
                 skipLoadingAnimation();
-                console.log('✅ Loading animation skipped (already played this session)');
             } else {
-                // Run animation - first time in this session
                 runLoadingAnimation();
-                console.log('🎬 Loading animation playing...');
             }
         });
         
-        // Demo function to reset for testing
         function resetLoadingAnimation() {
             sessionStorage.removeItem('loadingAnimationPlayed');
             alert('Loading animation reset! Reload page to see it again.');
         }
-        
-        // Optional: Clear on tab close (uncomment if you want)
-        // window.addEventListener('beforeunload', function() {
-        //     sessionStorage.removeItem('loadingAnimationPlayed');
-        // });
     </script>
     
     <script src="script.js"></script>
