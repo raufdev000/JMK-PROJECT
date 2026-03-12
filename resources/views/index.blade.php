@@ -432,7 +432,7 @@
         <!-- CARD 1 -->
      <!-- CARD 1 -->
 <div class="card custom-card">
-  <img src="../images/Watch Maintenance.jpg" alt="">
+  <img src="../images/watchmain (1).png" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Watches') }}" class="btn custom-btn">Watch Repairing</a>
   </div>
@@ -440,7 +440,7 @@
 
 <!-- CARD 2 -->
 <div class="card custom-card">
-  <img src="../images/Repairing And Upgrade Mobile Phone Electronic Computer Hardware And Technology Concept Photo And Picture For Free Download - Pngtree (1).jpg" alt="">
+  <img src="../images/ipjone17 (1).webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Phone') }}" class="btn custom-btn">Phone Repairing</a>
   </div>
@@ -448,13 +448,13 @@
 
 <!-- CARD 3 -->
 <div class="card custom-card">
-  <img src="../images/download (13).jpg" alt="">
+  <img src="../images/download (13) (2).webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Key') }}" class="btn custom-btn">Key duplicating</a>
   </div>
 </div>
 <div class="card custom-card">
-  <img src="../images/5ca01bfb6130937062e2212884654589.jpg" alt="">
+  <img src="../images/5ca01bfb6130937062e2212884654589.webp" alt="">
   <div class="card-body text-center">
     <a href="{{ route('suitcase') }}" class="btn custom-btn">Suitcase repairing</a>
   </div>
@@ -560,7 +560,7 @@
 
 <!-- CARD 6 -->
 <div class="card custom-card">
-  <img src="../images/accescard.jpg" alt="">
+  <img src="../images/accescard (2).jpg" alt="">
   <div class="card-body text-center">
     <a href="{{ route('Access') }}" class="btn custom-btn">Access card Repairing</a>
   </div>
