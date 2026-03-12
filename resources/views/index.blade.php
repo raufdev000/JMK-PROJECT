@@ -277,7 +277,7 @@
 </div>
 
  <div class="hero-image mb-0">
-  <img src="../images/pexels-parimoofarhaan-29625344.jpg" alt="Hero Image">
+  <img src="../images/pexels-parimoofarhaan-29625344 (1).webp" alt="Hero Image">
   
   <!-- Hero Text Carousel Overlay -->
   <div class="hero-text-overlay">
