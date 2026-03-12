@@ -11,17 +11,18 @@ return new class extends Migration
      *
      * @return void
      */
-    public function up()
-    {
+    public function up() {
+    if (!Schema::hasTable('seo_settings')) {
         Schema::create('seo_settings', function (Blueprint $table) {
-    $table->id();
-    $table->string('page_key')->unique();
-    $table->string('meta_title')->nullable();
-    $table->string('meta_description')->nullable();
-    $table->string('og_image')->nullable();
-    $table->timestamps();
-});
+            $table->id();
+            $table->string('page_key')->unique();
+            $table->string('meta_title')->nullable();
+            $table->string('meta_description')->nullable();
+            $table->string('og_image')->nullable();
+            $table->timestamps();
+        });
     }
+}
 
     /**
      * Reverse the migrations.
