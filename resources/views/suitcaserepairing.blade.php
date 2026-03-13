@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Suitcase</title>
+    <meta name="description" content="Broken suitcase wheel, zipper or handle? JMK Repairs Dubai fixes all luggage brands quickly at Al Karama.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://jmkrepairs.com/suitcase-repairing">
    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
        <link rel="icon" type="image/png" href="../images/jmk_logo.png">
 <link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">
@@ -523,7 +526,7 @@
             <!-- RIGHT: Image -->
             <div class="col-lg-6 order-lg-2 order-1">
                 <div class="sc-hero-image-wrapper">
-                    <img src="../images/5ca01bfb6130937062e2212884654589.jpg" alt="Suitcase Repair Dubai">
+                    <img src="../images/Gucci.webp" alt="Suitcase Repair Dubai">
                 </div>
             </div>
         </div>

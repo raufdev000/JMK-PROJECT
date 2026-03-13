@@ -1,20 +1,32 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Digital card</title>
-    <link rel="icon" type="image/png" href="../images/jmk_logo.png">
-<link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">
-<link rel="apple-touch-icon" href="../images/jmk_logo.png">
 
-   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- SEO Meta Tags -->
+    <title>Access Card Repairing Dubai - RFID & Smart Card Fix | JMK Repairs</title>
+    <meta name="description" content="Professional access card repairing in Dubai. RFID cards, proximity cards and smart cards repaired quickly at JMK Repairs Al Karama. Fast & affordable service.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://jmkrepairs.com/access-card-repairing">
+
+    <!-- OG Tags -->
+    <meta property="og:title" content="Access Card Repairing Dubai | JMK Repairs">
+    <meta property="og:description" content="RFID, proximity & smart card repair in Al Karama Dubai. Fast turnaround at affordable prices.">
+    <meta property="og:url" content="https://jmkrepairs.com/access-card-repairing">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/jmk_logo.png') }}">
+
+    <!-- CSS — sirf ek Bootstrap rakho, duplicate hata diya -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
+</head>
   <style>
     /* ===================== ACCESS CARD SECTION VARIABLES ===================== */
     :root {
@@ -567,7 +579,7 @@
             <!-- RIGHT: Image -->
             <div class="col-lg-6 order-lg-2 order-1">
                 <div class="ac-hero-image-wrapper">
-                    <img src="../images/accescard.jpg" alt="Access Card Duplication Dubai">
+                    <img src="../images/accescard (2).webp" alt="Access Card Duplication Dubai">
                 </div>
             </div>
         </div>

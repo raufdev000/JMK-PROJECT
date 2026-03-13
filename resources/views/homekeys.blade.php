@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home Locksmith Service Dubai</title>
+    <meta name="description" content="Lost your home keys in Dubai? JMK Repairs provides emergency locksmith services. Fast response, new key cutting and lock replacement available.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://jmkrepairs.com/lost-home-keys">
     <link rel="icon" type="image/png" href="../images/jmk_logo.png">
 <link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">
 <link rel="apple-touch-icon" href="../images/jmk_logo.png">
@@ -15,11 +18,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   </head>
      <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+       
         
         :root {
             --primary-color: #871deb;
@@ -553,7 +552,7 @@
             <!-- RIGHT: Image -->
             <div class="col-lg-6 order-lg-2 order-1">
                 <div class="hero-image-wrapper">
-                    <img src="../images/losthome.jpg" class="img-fluid rounded-4 shadow" alt="Home Locksmith Services Dubai">
+                    <img src="../images/losthome (1).webp" class="img-fluid rounded-4 shadow" alt="Home Locksmith Services Dubai">
                 </div>
             </div>
         </div>

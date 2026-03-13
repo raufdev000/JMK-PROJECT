@@ -1,25 +1,34 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Locksmith Service Dubai</title>
-    <link rel="icon" type="image/png" href="../images/jmk_logo.png">
-<link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">
-<link rel="apple-touch-icon" href="../images/jmk_logo.png">
 
-     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <!-- SEO Meta Tags -->
+    <title>Lock Repairing Dubai - Fast & Reliable Locksmith | JMK Repairs</title>
+    <meta name="description" content="Professional lock repairing services in Dubai. Broken lock? We fix deadbolts, padlocks, door locks and all lock types quickly at JMK Repairs Al Karama.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://jmkrepairs.com/lock-repairing">
+
+    <!-- OG Tags -->
+    <meta property="og:title" content="Lock Repairing Dubai - Fast & Reliable | JMK Repairs">
+    <meta property="og:description" content="Professional lock repairing in Al Karama Dubai. All lock types fixed quickly and affordably.">
+    <meta property="og:url" content="https://jmkrepairs.com/lock-repairing">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('images/jmk_logo.png') }}">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  </head>
+</head>
      <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+       
         
         :root {
             --primary-color: #871deb;

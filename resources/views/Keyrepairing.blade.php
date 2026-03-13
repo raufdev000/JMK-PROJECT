@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Key repairing</title>
+    <meta name="description" content="Professional key duplicating services in Dubai. Home keys, car keys, office keys duplicated in minutes at JMK Repairs Al Karama.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://jmkrepairs.com/key-duplicating">
       <link rel="stylesheet" href="{{ asset('css/style.css') }}">
           <link rel="icon" type="image/png" href="../images/jmk_logo.png">
 <link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">
@@ -565,7 +568,7 @@
 
             <div class="col-lg-6 order-lg-2 order-1">
                 <div class="kr-hero-image-wrapper">
-                    <img src="../images/a7229581b2a0d278c195c34c7a68f088.jpg" alt="Key Repair Dubai">
+                    <img src="../images/a7229581b2a0d278c195c34c7a68f088 (1).webp" alt="Key Repair Dubai">
                 </div>
             </div>
         </div>

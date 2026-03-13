@@ -561,7 +561,7 @@
 
             <div class="col-lg-6 order-lg-2 order-1">
                 <div class="lr-hero-image-wrapper">
-                    <img src="../images/Rogue Industries Makes Leather Goods to Last.jpg" alt="Leather Repair Dubai">
+                    <img src="../images/leather.webp" alt="Leather Repair Dubai">
                 </div>
             </div>
         </div>

@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>lock repair</title>
+    <meta name="description" content="Professional lock repairing services in Dubai. Broken lock? We fix all types of locks quickly and affordably at JMK Repairs Al Karama.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://jmkrepairs.com/lock-repairing">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <link rel="icon" type="image/png" href="../images/jmk_logo.png">
 <link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">

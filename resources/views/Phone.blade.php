@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Phone</title>
+    <meta name="description" content="Professional phone repairing in Dubai. Screen replacement, battery change, charging port fix for all brands at JMK Repairs Al Karama.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://jmkrepairs.com/phone-repairing">
       <link rel="stylesheet" href="{{ asset('css/style.css') }}">
           <link rel="icon" type="image/png" href="../images/jmk_logo.png">
 <link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">
@@ -531,7 +534,7 @@
             <!-- RIGHT: Image -->
             <div class="col-lg-6 order-lg-2 order-1">
                 <div class="phone-hero-image-wrapper">
-                    <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=600&fit=crop" alt="Phone Repairing Dubai">
+                    <img src="../images/phonemain.webp" alt="Phone Repairing Dubai">
                 </div>
             </div>
         </div>

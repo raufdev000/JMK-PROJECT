@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Watches</title>
+    <meta name="description" content="Professional shoe repairing in Dubai. Sole replacement, stitching, heel repair and more at JMK Repairs Al Karama.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://jmkrepairs.com/shoe-repairing">
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
             <link rel="icon" type="image/png" href="../images/jmk_logo.png">
 <link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">
@@ -522,7 +525,7 @@
             <!-- RIGHT: Image -->
             <div class="col-lg-6 order-lg-2 order-1">
                 <div class="wr-hero-image-wrapper">
-                    <img src="../images/watchmain.jpg" alt="Watch Repair Dubai">
+                    <img src="../images/watchmain (1).webp" alt="Watch Repair Dubai">
                 </div>
             </div>
         </div>

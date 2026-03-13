@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact</title>
-    <link rel="icon" type="image/png" href="../images/jmk_logo.png">
-<link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">
-<link rel="apple-touch-icon" href="../images/jmk_logo.png">
+    <title>Contact</title> 
+    <link rel="canonical" href="https://jmkrepairs.com/contact">
+  <link rel="icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
+<link rel="shortcut icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
+<link rel="apple-touch-icon" href="{{ asset('images/jmk_logo.png') }}">
 
        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
