@@ -151,7 +151,7 @@
 
           <!-- LOGO LEFT -->
           <a class="navbar-brand d-flex align-items-center" href="{{ route('index') }}" aria-label="JMK Repairs Home">
-            <img src="{{ asset('images/jmk_logo.png') }}" alt="JMK Repairs Dubai Logo" height="55" width="55" class="me-2">
+            <img src="../images/jmk_logo.png" alt="JMK Repairs Dubai Logo" height="55" width="70" class="me-2">
           </a>
 
           <!-- TOGGLER -->

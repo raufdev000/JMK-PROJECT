@@ -265,7 +265,7 @@
 
       <!-- LOGO LEFT -->
       <a class="navbar-brand d-flex align-items-center" href="{{ route('index') }}" aria-label="JMK Repairs Home">
-        <img src="{{ asset('images/jmk_logo.png') }}" alt="JMK Repairs Dubai Logo" height="55" width="55" class="me-2">
+        <img src="../images/jmk_logo.png" alt="JMK Repairs Dubai Logo" height="55" width="70" class="me-2">
         <span class="fw-semibold shop-name d-none d-lg-block">Juma khan shoes & watches repairing</span>
       </a>
 
@@ -731,7 +731,7 @@
           <img src="{{ asset('images/specialist.webp') }}"
                class="img-fluid rounded-circle specialist-img"
                alt="John Doe - Lead repair technician at JMK Repairs Dubai"
-               width="150" height="150"
+               width="" height=""
                loading="lazy">
           <h3 class="text-center mt-2">John Doe</h3>
         </div>
@@ -739,7 +739,7 @@
           <img src="{{ asset('images/specialist (1).webp') }}"
                class="img-fluid rounded-circle specialist-img"
                alt="Jane Smith - Leather and watch repair specialist at JMK Repairs Dubai"
-               width="150" height="150"
+               width="" height=""
                loading="lazy">
           <h3 class="text-center mt-2">Jane Smith</h3>
         </div>

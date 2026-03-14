@@ -478,7 +478,7 @@
 
       <!-- LOGO LEFT -->
       <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="../images/jmk_logo.png" alt="Logo" height="55" class="me-2">
+        <img src="../images/jmk_logo.png" alt="Logo" height="55" width="70" class="me-2">
       </a>
 
       <!-- TOGGLER -->
@@ -568,7 +568,7 @@
 
             <div class="col-lg-6 order-lg-2 order-1">
                 <div class="sr-hero-image-wrapper">
-                    <img src="../images/shoe (1).webp" alt="Shoe Repair Dubai">
+                    <img src="../images/shoemain.webp" alt="Shoe Repair Dubai">
                 </div>
             </div>
         </div>
@@ -576,7 +576,7 @@
 </section>
 
 
-<!-- ============================= SERVICES SECTION ============================= -->
+
 <section class="sr-services-section font-ui">
     <div class="container">
         <div class="sr-section-title text-center mb-5">

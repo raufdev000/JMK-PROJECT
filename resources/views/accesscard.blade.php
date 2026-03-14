@@ -488,7 +488,7 @@
 
       <!-- LOGO LEFT -->
       <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="../images/jmk_logo.png" alt="Logo" height="55" class="me-2">
+        <img src="../images/jmk_logo.png" alt="Logo" height="55" width="70" class="me-2">
       </a>
 
       <!-- TOGGLER -->
