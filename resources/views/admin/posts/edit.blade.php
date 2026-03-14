@@ -149,7 +149,7 @@
 </div>
 </form>
 
-<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+<script src="https://cdn.tiny.cloud/1/d2dedx9ntre5cpfav89l1zp9f2eqylf6b74a9kjsbm93k4td/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 <script>
 tinymce.init({
     selector: '#content',
