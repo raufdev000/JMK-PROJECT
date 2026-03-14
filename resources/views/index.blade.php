@@ -265,7 +265,7 @@
 
       <!-- LOGO LEFT -->
       <a class="navbar-brand d-flex align-items-center" href="{{ route('index') }}" aria-label="JMK Repairs Home">
-        <img src="../images/jmk_logo.png" alt="JMK Repairs Dubai Logo" height="55" width="70" class="me-2">
+        <img src="../images/jmklogo.png" alt="JMK Repairs Dubai Logo" height="55" width="70" class="me-2">
         <span class="fw-semibold shop-name d-none d-lg-block">Juma khan shoes & watches repairing</span>
       </a>
 
