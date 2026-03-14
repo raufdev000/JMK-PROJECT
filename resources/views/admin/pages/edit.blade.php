@@ -57,8 +57,17 @@
         <!-- CONTENT -->
         <div class="card p-4 mb-4">
             <h6 class="fw-bold mb-3">✏️ Page Content</h6>
-            <textarea name="content" rows="10" class="form-control">{{ old('content', $page->content) }}</textarea>
-        </div>
+<textarea name="content" id="pageContent" rows="10" class="form-control">{{ old('content', $page->content) }}</textarea>
+
+<script src="https://cdn.tiny.cloud/1/d2dedx9ntre5cpfav89l1zp9f2eqylf6b74a9kjsbm93k4td/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+<script>
+tinymce.init({
+    selector: '#pageContent',
+    plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount',
+    toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+    height: 400,
+});
+</script>        </div>
 
         <!-- ===== IMAGES ===== -->
         <div class="card p-4 mb-4">

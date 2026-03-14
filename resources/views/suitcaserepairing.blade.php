@@ -526,7 +526,7 @@
             <!-- RIGHT: Image -->
             <div class="col-lg-6 order-lg-2 order-1">
                 <div class="sc-hero-image-wrapper">
-                    <img src="../images/Gucci.webp" alt="Suitcase Repair Dubai">
+                    <img src="../images/5ca01bfb6130937062e2212884654589.jpg" alt="Suitcase Repair Dubai">
                 </div>
             </div>
         </div>

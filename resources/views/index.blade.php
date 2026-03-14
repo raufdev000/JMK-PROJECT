@@ -515,7 +515,7 @@
 
         <!-- CARD 7 -->
         <div class="card custom-card">
-          <img src="{{ asset('images/shoemain (1).webp') }}" alt="Shoe repair service Dubai - Expert cobbler" width="400" height="300" loading="lazy">
+          <img src="{{ asset('images/shoe (1).webp') }}" alt="Shoe repair service Dubai - Expert cobbler" width="400" height="300" loading="lazy">
           <div class="card-body text-center">
             <a href="{{ route('Shoe') }}" class="btn custom-btn">Shoe Repairing</a>
           </div>
@@ -733,7 +733,7 @@
           
         </div>
         <div class="specialist-img-box" data-id="2">
-          <img src="../images/specialist.webp" class="img-fluid rounded-circle specialist-img" alt="Specialist 2">
+          <img src="../images/specialist (2).webp" class="img-fluid rounded-circle specialist-img" alt="Specialist 2">
           <h6 class="text-center mt-2">Jane Smith</h6>
         </div>
       </div>

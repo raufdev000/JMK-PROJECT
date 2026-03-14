@@ -1,3 +1,36 @@
+const images = [
+    "Rectangle 6 (2).png",
+    "download2.jpg",
+    "download (7).jpg"
+  ];
+
+  let index = 0;
+  const img = document.getElementById("mainImage");
+
+  function changeImage(){
+    img.classList.add("fade-out");
+
+    setTimeout(() => {
+      index = (index + 1) % images.length; // loop
+      img.src = images[index];
+      img.classList.remove("fade-out");
+    }, 250);
+  }
+const slideElements = document.querySelectorAll('.slide-left-box, .slide-right-box');
+
+  const observer = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+        } else {
+          // viewport se bahar jaane par remove class
+          entry.target.classList.remove('active');
+        }
+      });
+    },
+    { threshold: 0.3 } // 30% element visible hone par trigger
+  );
 
   slideElements.forEach(el => observer.observe(el));
 document.addEventListener("DOMContentLoaded", function() {
