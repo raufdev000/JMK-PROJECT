@@ -483,7 +483,7 @@
 
         <!-- CARD 3 -->
         <div class="card custom-card">
-          <img src="{{ asset('images/keymain.webp') }}" alt="Key duplicating service Dubai - All key types" width="400" height="300" loading="lazy">
+          <img src="../images/a7229581b2a0d278c195c34c7a68f088 (1).webp" alt="Key duplicating service Dubai - All key types" width="400" height="300" loading="lazy">
           <div class="card-body text-center">
             <a href="{{ route('Key') }}" class="btn custom-btn">Key Duplicating</a>
           </div>
@@ -515,7 +515,7 @@
 
         <!-- CARD 7 -->
         <div class="card custom-card">
-          <img src="{{ asset('images/shoe (1).webp') }}" alt="Shoe repair service Dubai - Expert cobbler" width="400" height="300" loading="lazy">
+          <img src="{{ asset('images/shoemain (1).webp') }}" alt="Shoe repair service Dubai - Expert cobbler" width="400" height="300" loading="lazy">
           <div class="card-body text-center">
             <a href="{{ route('Shoe') }}" class="btn custom-btn">Shoe Repairing</a>
           </div>
@@ -546,7 +546,7 @@
         </div>
 
         <div class="card custom-card">
-          <img src="{{ asset('images/keymain.webp') }}" alt="Key duplicating service Dubai - All key types" width="400" height="300" loading="lazy">
+          <img src="../images/a7229581b2a0d278c195c34c7a68f088 (1).webp" alt="Key duplicating service Dubai - All key types" width="400" height="300" loading="lazy">
           <div class="card-body text-center">
             <a href="{{ route('Key') }}" class="btn custom-btn">Key Duplicating</a>
           </div>
@@ -567,7 +567,7 @@
         </div>
 
         <div class="card custom-card">
-          <img src="{{ asset('images/shoe (1).webp') }}" alt="Shoe repair service Dubai - Expert cobbler" width="400" height="300" loading="lazy">
+          <img src="{{ asset('images/shoemain (1).webp') }}" alt="Shoe repair service Dubai - Expert cobbler" width="400" height="300" loading="lazy">
           <div class="card-body text-center">
             <a href="{{ route('Shoe') }}" class="btn custom-btn">Shoe Repairing</a>
           </div>
@@ -719,29 +719,22 @@
   </div>
 </section>
 
-<section class="specialists-section py-5" aria-labelledby="specialists-heading">
+<section class="specialists-section py-5">
   <div class="container font-ui">
-    <h2 id="specialists-heading" class="text-center mb-5 slide-right">Our Specialists</h2>
+    <h3 class="text-center mb-5 slide-right">Our Specialists</h3>
 
     <div class="row justify-content-center align-items-center g-4">
 
       <!-- Specialists Images -->
       <div class="col-md-6 d-flex justify-content-around">
         <div class="specialist-img-box" data-id="1">
-          <img src="{{ asset('images/specialist.webp') }}"
-               class="img-fluid rounded-circle specialist-img"
-               alt="John Doe - Lead repair technician at JMK Repairs Dubai"
-               width="" height=""
-               loading="lazy">
-          <h3 class="text-center mt-2">John Doe</h3>
+          <img src="../images/specialist (1).webp" class="img-fluid rounded-circle specialist-img" alt="Specialist 1">
+          <h6 class="text-center mt-2">John Doe</h6>
+          
         </div>
         <div class="specialist-img-box" data-id="2">
-          <img src="{{ asset('images/specialist (1).webp') }}"
-               class="img-fluid rounded-circle specialist-img"
-               alt="Jane Smith - Leather and watch repair specialist at JMK Repairs Dubai"
-               width="" height=""
-               loading="lazy">
-          <h3 class="text-center mt-2">Jane Smith</h3>
+          <img src="../images/specialist.webp" class="img-fluid rounded-circle specialist-img" alt="Specialist 2">
+          <h6 class="text-center mt-2">Jane Smith</h6>
         </div>
       </div>
 
