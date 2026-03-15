@@ -141,6 +141,8 @@
   <div class="hero-image mb-0">
     <img src="{{ asset('images/hero-banner.webp') }}"
      alt="JMK Repairs Dubai - Professional Repair Services in Al Karama"
+         width="1200" height="600"
+    
 
     <div class="hero-text-overlay">
       <div class="container">
