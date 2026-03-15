@@ -27,7 +27,7 @@
   <meta property="og:site_name" content="JMK Repairs Dubai">
   <meta property="og:locale" content="en_AE">
 
-  <!-- Twitter Card -->
+  
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="JMK Repairs Dubai - Professional Repair Services">
   <meta name="twitter:description" content="Watch, phone, shoe, lock & leather repair in Al Karama Dubai.">
@@ -38,8 +38,7 @@
   <link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">
   <link rel="apple-touch-icon" href="../images/jmk_logo.png">
 
-  <!-- Schema Markup -->
-  <script type="application/ld+json">
+  <!-- <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -63,7 +62,7 @@
     "priceRange": "$$",
     "image": "https://jmkrepairs.com/images/jmk_logo.png"
   }
-  </script>
+  </script> -->
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
@@ -140,8 +139,8 @@
 
   <!-- HERO IMAGE — apni image ka path set karo -->
   <div class="hero-image mb-0">
-    <img src="../images/pexels-parimoofarhaan-29625344 (2) (1)webp"
-         alt="JMK Repairs Dubai - Professional Repair Services in Al Karama"
+    <img src="{{ asset('images/hero-banner.webp') }}"
+     alt="JMK Repairs Dubai - Professional Repair Services in Al Karama"
          width="1200" height="600"
          fetchpriority="high">
 
