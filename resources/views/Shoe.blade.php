@@ -568,7 +568,7 @@
 
             <div class="col-lg-6 order-lg-2 order-1">
                 <div class="sr-hero-image-wrapper">
-                    <img src="../images/shoemain.webp" alt="Shoe Repair Dubai">
+                    <img src="../images/shoerepair.webp" alt="Shoe Repair Dubai">
                 </div>
             </div>
         </div>

@@ -140,7 +140,7 @@
 
   <!-- HERO IMAGE — apni image ka path set karo -->
   <div class="hero-image mb-0">
-    <img src="../images/pexels-parimoofarhaan-29625344 (2).webp"
+    <img src="../images/pexels-parimoofarhaan-29625344 (2) (1)webp"
          alt="JMK Repairs Dubai - Professional Repair Services in Al Karama"
          width="1200" height="600"
          fetchpriority="high">
@@ -306,7 +306,7 @@
           </div>
 
           <div class="card custom-card">
-            <img src="images/shoes.webp" alt="Shoe repair Dubai" width="400" height="300" loading="lazy">
+            <img src="../images/shoerepair.webp" alt="Shoe repair Dubai" width="400" height="300" loading="lazy">
             <div class="card-body text-center">
               <a href="{{ route('Shoe') }}" class="btn custom-btn">Shoe Repairing</a>
             </div>
@@ -356,7 +356,7 @@
           </div>
 
           <div class="card custom-card">
-            <img src="../images/shoes.webp" alt="Shoe repair Dubai" width="400" height="300" loading="lazy">
+            <img src="../images/shoerepair.webp" alt="Shoe repair Dubai" width="400" height="300" loading="lazy">
             <div class="card-body text-center">
               <a href="{{ route('Shoe') }}" class="btn custom-btn">Shoe Repairing</a>
             </div>
