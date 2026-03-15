@@ -21,7 +21,7 @@
   <!-- Open Graph -->
   <meta property="og:title" content="JMK Repairs Dubai - Professional Repair Services">
   <meta property="og:description" content="Watch, phone, shoe, lock & leather repair in Al Karama Dubai. Fast, affordable & trusted service.">
-  <meta property="og:image" content="{{ asset('images/jmk_logo.png') }}">
+  <meta property="og:image" content="../images/jmk_logo.png">
   <meta property="og:url" content="https://jmkrepairs.com/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="JMK Repairs Dubai">
@@ -31,12 +31,12 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="JMK Repairs Dubai - Professional Repair Services">
   <meta name="twitter:description" content="Watch, phone, shoe, lock & leather repair in Al Karama Dubai.">
-  <meta name="twitter:image" content="{{ asset('images/jmk_logo.png') }}">
+  <meta name="twitter:image" content="../images/jmk_logo.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
-  <link rel="shortcut icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
-  <link rel="apple-touch-icon" href="{{ asset('images/jmk_logo.png') }}">
+  <link rel="icon" type="image/png" href="../images/jmk_logo.png">
+  <link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">
+  <link rel="apple-touch-icon" href="../images/jmk_logo.png">
 
   <!-- Schema Markup -->
   <script type="application/ld+json">
@@ -140,7 +140,7 @@
 
   <!-- HERO IMAGE — apni image ka path set karo -->
   <div class="hero-image mb-0">
-    <img src="{{ asset('images/pexels-parimoofarhaan-29625344 (2).webp') }}"
+    <img src="../images/pexels-parimoofarhaan-29625344 (2).webp"
          alt="JMK Repairs Dubai - Professional Repair Services in Al Karama"
          width="1200" height="600"
          fetchpriority="high">
@@ -306,7 +306,7 @@
           </div>
 
           <div class="card custom-card">
-            <img src="{{ asset('images/cobbler.webp') }}" alt="Shoe repair Dubai" width="400" height="300" loading="lazy">
+            <img src="images/shoes.webp" alt="Shoe repair Dubai" width="400" height="300" loading="lazy">
             <div class="card-body text-center">
               <a href="{{ route('Shoe') }}" class="btn custom-btn">Shoe Repairing</a>
             </div>
@@ -356,7 +356,7 @@
           </div>
 
           <div class="card custom-card">
-            <img src="{{ asset('images/cobbler.webp') }}" alt="Shoe repair Dubai" width="400" height="300" loading="lazy">
+            <img src="../images/shoes.webp" alt="Shoe repair Dubai" width="400" height="300" loading="lazy">
             <div class="card-body text-center">
               <a href="{{ route('Shoe') }}" class="btn custom-btn">Shoe Repairing</a>
             </div>
