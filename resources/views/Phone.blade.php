@@ -534,7 +534,7 @@
             <!-- RIGHT: Image -->
             <div class="col-lg-6 order-lg-2 order-1">
                 <div class="phone-hero-image-wrapper">
-                    <img src="../images/phonemain.webp" alt="Phone Repairing Dubai">
+                    <img src="../images/iphone17 (1).webp" alt="Phone Repairing Dubai">
                 </div>
             </div>
         </div>
