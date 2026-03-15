@@ -141,8 +141,6 @@
   <div class="hero-image mb-0">
     <img src="{{ asset('images/hero-banner.webp') }}"
      alt="JMK Repairs Dubai - Professional Repair Services in Al Karama"
-         width="1200" height="600"
-         fetchpriority="high">
 
     <div class="hero-text-overlay">
       <div class="container">
@@ -490,40 +488,42 @@
   </section>
 
   <!-- SPECIALISTS SECTION -->
-  <section class="specialists-section py-5">
-    <div class="container font-ui">
-      <h3 class="text-center mb-5 slide-right">Our Specialists</h3>
-      <div class="row justify-content-center align-items-center g-4">
+ <section class="specialists-section py-5">
+  <div class="container font-ui">
+    <h3 class="text-center mb-5 slide-right">Our Specialists</h3>
 
-        <div class="col-md-6 d-flex justify-content-around">
-          <div class="specialist-img-box" data-id="1">
-            <img src="{{ asset('images/specialist (1).webp') }}" class="img-fluid rounded-circle specialist-img"
-                 alt="JMK Repairs Watch & Phone Specialist" width="150" height="150" loading="lazy">
-            <h6 class="text-center mt-2">John Doe</h6>
-          </div>
-          <div class="specialist-img-box" data-id="2">
-            <img src="{{ asset('images/specialist (2).webp') }}" class="img-fluid rounded-circle specialist-img"
-                 alt="JMK Repairs Leather & Shoe Specialist" width="150" height="150" loading="lazy">
-            <h6 class="text-center mt-2">Jane Smith</h6>
-          </div>
+    <div class="row justify-content-center align-items-center g-4">
+
+      <!-- Specialists Images -->
+      <div class="col-md-6 d-flex justify-content-around">
+        <div class="specialist-img-box" data-id="1">
+          <img src="../images/specialist (2).jpg" class="img-fluid rounded-circle specialist-img" alt="Specialist 1">
+          <h6 class="text-center mt-2">John Doe</h6>
+          
         </div>
-
-        <div class="col-md-8 mt-4">
-          <div class="specialist-data">
-            <div class="specialist-info text-dark" data-id="1">
-              <h4>John Doe</h4>
-              <p>John is our lead technician with 10 years of experience in phone and electronic repairs. He ensures precision and quality in every service.</p>
-            </div>
-            <div class="specialist-info" data-id="2" style="display:none;">
-              <h4>Jane Smith</h4>
-              <p>Jane specializes in leather, watch, and shoe repairs. Her meticulous approach guarantees client satisfaction and flawless results.</p>
-            </div>
-          </div>
+        <div class="specialist-img-box" data-id="2">
+          <img src="../images/specialist (1).jpg" class="img-fluid rounded-circle specialist-img" alt="Specialist 2">
+          <h6 class="text-center mt-2">Jane Smith</h6>
         </div>
-
       </div>
+
+      <!-- Specialist Data -->
+      <div class="col-md-8 mt-4">
+        <div class="specialist-data">
+          <div class="specialist-info text-dark" data-id="1">
+            <h4>John Doe</h4>
+            <p>John is our lead technician with 10 years of experience in phone and electronic repairs. He ensures precision and quality in every service.</p>
+          </div>
+          <div class="specialist-info" data-id="2" style="display:none;">
+            <h4>Jane Smith</h4>
+            <p>Jane specializes in leather, watch, and shoe repairs. Her meticulous approach guarantees client satisfaction and flawless results.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
 </main>
 
