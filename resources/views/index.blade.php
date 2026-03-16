@@ -144,7 +144,7 @@
   </div>
 
   <div class="hero-image mb-0">
-    <img src="{{ asset('images/main-banner.webp') }}" alt="Hero Image">
+    <img src="{{ asset('images/main-banner.webp') }}"  alt="Hero Image"  fetchpriority="high">>
 
     <!-- Hero Text Carousel Overlay -->
     <div class="hero-text-overlay">
@@ -398,7 +398,7 @@
           <div class="glass-card p-4 p-md-5">
             <h3 class="text-danger fw-bold mb-2">About Our Repair Shop</h3>
             <h2 id="about-heading" class="fw-bold mb-3">We Bring Your Devices Back to Life</h2>
-            <h4 class="text-muted mb-3">Fast • Reliable • Affordable Services</h4>
+           <h3 class="text-muted mb-3">Fast • Reliable • Affordable Services</h3>
             <p class="mb-2">We specialize in professional repair services for phones, watches, shoes, locks, and leather goods in Al Karama, Dubai.</p>
             <p class="mb-2">Our expert technicians use modern tools and genuine parts to ensure long-lasting results.</p>
             <p class="mb-2">Customer satisfaction is our top priority, and we guarantee quality workmanship on every repair.</p>
@@ -508,11 +508,11 @@
         <div class="col-md-6 d-flex justify-content-around">
           <div class="specialist-img-box" data-id="1">
             <img src="{{ asset('images/specialist (2).webp') }}" class="img-fluid rounded-circle specialist-img" alt="Specialist 1">
-            <h6 class="text-center mt-2">John Doe</h6>
+         <h5 class="text-center mt-2">John Doe</h5>
           </div>
           <div class="specialist-img-box" data-id="2">
             <img src="{{ asset('images/specialist (1).webp') }}" class="img-fluid rounded-circle specialist-img" alt="Specialist 2">
-            <h6 class="text-center mt-2">Jane Smith</h6>
+         <h5 class="text-center mt-2">Jane smith</h5>
           </div>
         </div>
 
@@ -547,7 +547,7 @@
 
       <!-- CENTER: Navigation Links -->
       <div class="col-md-4 mb-4 mb-md-0 text-center">
-        <h6 class="fw-bold mb-3">Quick Links</h6>
+        <h4 class="fw-bold mb-3">Quick Links</h4>
         <ul class="list-unstyled">
           <li><a href="{{ route('index') }}" class="footer-link">Home</a></li>
           <li><a href="{{ route('about') }}" class="footer-link">About</a></li>
@@ -558,7 +558,7 @@
 
       <!-- RIGHT: Contact & Social Icons -->
       <div class="col-md-5 d-flex flex-column align-items-md-end align-items-center">
-        <h6 class="fw-bold mb-3">Contact Us</h6>
+      <h4 class="fw-bold mb-3">Contact us</h4>
         <p class="mb-1 small">📍 JMk – Al Karama, Dubai, UAE</p>
         <p class="mb-1 small">Jumakhanzhob1@gmail.com</p>
         <p class="mb-3 small">0505090296 <br> 0505481819</p>
