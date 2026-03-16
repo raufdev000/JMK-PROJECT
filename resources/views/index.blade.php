@@ -505,11 +505,11 @@
 
         <div class="col-md-6 d-flex justify-content-around">
           <div class="specialist-img-box" data-id="1">
-            <img src="{{ asset('images/specialist (2).jpg') }}" class="img-fluid rounded-circle specialist-img" alt="Specialist 1">
+            <img src="{{ asset('images/specialist (2).webp') }}" class="img-fluid rounded-circle specialist-img" alt="Specialist 1">
             <h6 class="text-center mt-2">John Doe</h6>
           </div>
           <div class="specialist-img-box" data-id="2">
-            <img src="{{ asset('images/specialist (1).jpg') }}" class="img-fluid rounded-circle specialist-img" alt="Specialist 2">
+            <img src="{{ asset('images/specialist (1).webp') }}" class="img-fluid rounded-circle specialist-img" alt="Specialist 2">
             <h6 class="text-center mt-2">Jane Smith</h6>
           </div>
         </div>
