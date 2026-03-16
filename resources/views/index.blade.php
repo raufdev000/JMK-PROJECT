@@ -21,24 +21,25 @@
   <!-- Open Graph -->
   <meta property="og:title" content="JMK Repairs Dubai - Professional Repair Services">
   <meta property="og:description" content="Watch, phone, shoe, lock & leather repair in Al Karama Dubai. Fast, affordable & trusted service.">
-  <meta property="og:image" content="../images/jmk_logo.png">
+  <meta property="og:image" content="https://jmkrepairs.com/images/jmk_logo.png">
   <meta property="og:url" content="https://jmkrepairs.com/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="JMK Repairs Dubai">
   <meta property="og:locale" content="en_AE">
 
-  
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="JMK Repairs Dubai - Professional Repair Services">
   <meta name="twitter:description" content="Watch, phone, shoe, lock & leather repair in Al Karama Dubai.">
-  <meta name="twitter:image" content="../images/jmk_logo.png">
+  <meta name="twitter:image" content="https://jmkrepairs.com/images/jmk_logo.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="../images/jmk_logo.png">
-  <link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">
-  <link rel="apple-touch-icon" href="../images/jmk_logo.png">
+  <link rel="icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
+  <link rel="shortcut icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
+  <link rel="apple-touch-icon" href="{{ asset('images/jmk_logo.png') }}">
 
-  <!-- <script type="application/ld+json">
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -62,7 +63,7 @@
     "priceRange": "$$",
     "image": "https://jmkrepairs.com/images/jmk_logo.png"
   }
-  </script> -->
+  </script>
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
@@ -77,12 +78,12 @@
 <header class="hero-section font-ui">
 
   <!-- NAVBAR -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0 start-0 w-100 py-3">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0 start-0 w-100 py-3">
     <div class="container">
 
       <!-- LOGO LEFT -->
       <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="../images/jmk_logo.png" alt="Logo" height="55" class="me-2">
+        <img src="{{ asset('images/jmk_logo.png') }}" alt="Logo" height="55" class="me-2">
         <span class="fw-semibold shop-name d-none d-lg-block">Juma khan shoes & watches repairing</span>
       </a>
 
@@ -101,27 +102,26 @@
           <li class="nav-item">
             <a class="nav-link" href="{{ route('about') }}">About</a>
           </li>
-        
           <li class="nav-item">
             <a class="nav-link" href="{{ route('contact') }}">Contact</a>
           </li>
 
-         <!-- DROPDOWN -->
+          <!-- DROPDOWN -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="{{ route('services') }}" role="button" data-bs-toggle="dropdown">
               Services
             </a>
             <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-                <li><a class="dropdown-item" href="{{ route('Lock') }}">lock Repairing</a></li>
+              <li><a class="dropdown-item" href="{{ route('Lock') }}">lock Repairing</a></li>
               <li><a class="dropdown-item" href="{{ route('Phone') }}">Phone Repairing</a></li>
               <li><a class="dropdown-item" href="{{ route('Watches') }}">Watch Repairing</a></li>
               <li><a class="dropdown-item" href="{{ route('leather') }}">Leather work's</a></li>
               <li><a class="dropdown-item" href="{{ route('Shoe') }}">Shoe Repairing</a></li>
               <li><a class="dropdown-item" href="{{ route('Key') }}">Key duplicating</a></li>
-                            <li><a class="dropdown-item" href="{{ route('suitcase') }}">Suitcase repairing</a></li>
-                            <li><a class="dropdown-item" href="{{ route('Access') }}">Access card repairing</a></li>
-                            <li><a class="dropdown-item" href="{{ route('lostcar') }}">Lost car keys</a></li>
-                            <li><a class="dropdown-item" href="{{ route('losthome') }}">Lost home kyes</a></li>
+              <li><a class="dropdown-item" href="{{ route('suitcase') }}">Suitcase repairing</a></li>
+              <li><a class="dropdown-item" href="{{ route('Access') }}">Access card repairing</a></li>
+              <li><a class="dropdown-item" href="{{ route('lostcar') }}">Lost car keys</a></li>
+              <li><a class="dropdown-item" href="{{ route('losthome') }}">Lost home kyes</a></li>
             </ul>
           </li>
 
@@ -129,62 +129,63 @@
       </div>
     </div>
   </nav>
-<!-- WhatsApp Floating Button -->
-<div class="whatsapp-floating-btn">
- <a href="https://wa.me/+9710505090296" target="_blank" class="whatsapp-float-link">
-    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-      <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-    </svg>
-    <span class="whatsapp-text">Call Us</span>
-    <span class="online-dot"></span>
-  </a>
-</div>
 
- <div class="hero-image mb-0">
-  <img src="../images/main-banner.webp" alt="Hero Image">
-  
-  <!-- Hero Text Carousel Overlay -->
-  <div class="hero-text-overlay">
-    <div class="container">
-      <div class="hero-content">
-        <!-- Brand Badge -->
-        <div class="brand-badge">
-          <span class="badge-icon">⚡</span>
-          <span>Trusted Since Years</span>
-        </div>
-        
-        <!-- Carousel Text Container -->
-        <div class="carousel-text-wrapper">
-          <h1 class="hero-main-title">Jumma Khan</h1>
-          <div class="rotating-text-container">
-            <div class="rotating-text">
-              <span class="text-item active">Watches & Shoes Repairing</span>
-              <span class="text-item">Expert Watch Restoration</span>
-              <span class="text-item">Premium Shoe Care Service</span>
-              <span class="text-item">Quality You Can Trust</span>
+  <!-- WhatsApp Floating Button -->
+  <div class="whatsapp-floating-btn">
+    <a href="https://wa.me/+9710505090296" target="_blank" class="whatsapp-float-link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+        <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+      </svg>
+      <span class="whatsapp-text">Call Us</span>
+      <span class="online-dot"></span>
+    </a>
+  </div>
+
+  <div class="hero-image mb-0">
+    <img src="{{ asset('images/main-banner.webp') }}" alt="Hero Image">
+
+    <!-- Hero Text Carousel Overlay -->
+    <div class="hero-text-overlay">
+      <div class="container">
+        <div class="hero-content">
+          <!-- Brand Badge -->
+          <div class="brand-badge">
+            <span class="badge-icon">⚡</span>
+            <span>Trusted Since Years</span>
+          </div>
+
+          <!-- Carousel Text Container -->
+          <div class="carousel-text-wrapper">
+            <h1 class="hero-main-title">Jumma Khan</h1>
+            <div class="rotating-text-container">
+              <div class="rotating-text">
+                <span class="text-item active">Watches & Shoes Repairing</span>
+                <span class="text-item">Expert Watch Restoration</span>
+                <span class="text-item">Premium Shoe Care Service</span>
+                <span class="text-item">Quality You Can Trust</span>
+              </div>
             </div>
           </div>
-        </div>
-        
-        <!-- Tagline -->
-        <p class="hero-tagline font-ui">Where Precision Meets Craftsmanship</p>
-        
-        <!-- CTA Buttons -->
-        <div class="hero-cta-buttons font-ui">
-          <a href="tel:+9710505090296" class="cta-btn primary-cta">
-            <span>Emergency Call</span>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-              <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </a>
-          <a href="{{ route('contact') }}" class="cta-btn secondary-cta">
-            <span>Get In Touch</span>
-          </a>
+
+          <!-- Tagline -->
+          <p class="hero-tagline font-ui">Where Precision Meets Craftsmanship</p>
+
+          <!-- CTA Buttons -->
+          <div class="hero-cta-buttons font-ui">
+            <a href="tel:+9710505090296" class="cta-btn primary-cta">
+              <span>Emergency Call</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </a>
+            <a href="{{ route('contact') }}" class="cta-btn secondary-cta">
+              <span>Get In Touch</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 </header>
 
 <main>
@@ -311,7 +312,7 @@
           </div>
 
           <div class="card custom-card">
-            <img src="../images/shoerepair.webp" alt="Shoe repair Dubai" width="400" height="300" loading="lazy">
+            <img src="{{ asset('images/shoerepair.webp') }}" alt="Shoe repair Dubai" width="400" height="300" loading="lazy">
             <div class="card-body text-center">
               <a href="{{ route('Shoe') }}" class="btn custom-btn">Shoe Repairing</a>
             </div>
@@ -361,7 +362,7 @@
           </div>
 
           <div class="card custom-card">
-            <img src="../images/shoerepair.webp" alt="Shoe repair Dubai" width="400" height="300" loading="lazy">
+            <img src="{{ asset('images/shoerepair.webp') }}" alt="Shoe repair Dubai" width="400" height="300" loading="lazy">
             <div class="card-body text-center">
               <a href="{{ route('Shoe') }}" class="btn custom-btn">Shoe Repairing</a>
             </div>
@@ -496,53 +497,50 @@
   </section>
 
   <!-- SPECIALISTS SECTION -->
- <section class="specialists-section py-5">
-  <div class="container font-ui">
-    <h3 class="text-center mb-5 slide-right">Our Specialists</h3>
+  <section class="specialists-section py-5">
+    <div class="container font-ui">
+      <h3 class="text-center mb-5 slide-right">Our Specialists</h3>
 
-    <div class="row justify-content-center align-items-center g-4">
+      <div class="row justify-content-center align-items-center g-4">
 
-      <!-- Specialists Images -->
-      <div class="col-md-6 d-flex justify-content-around">
-        <div class="specialist-img-box" data-id="1">
-          <img src="../images/specialist (2).jpg" class="img-fluid rounded-circle specialist-img" alt="Specialist 1">
-          <h6 class="text-center mt-2">John Doe</h6>
-          
-        </div>
-        <div class="specialist-img-box" data-id="2">
-          <img src="../images/specialist (1).jpg" class="img-fluid rounded-circle specialist-img" alt="Specialist 2">
-          <h6 class="text-center mt-2">Jane Smith</h6>
-        </div>
-      </div>
-
-      <!-- Specialist Data -->
-      <div class="col-md-8 mt-4">
-        <div class="specialist-data">
-          <div class="specialist-info text-dark" data-id="1">
-            <h4>John Doe</h4>
-            <p>John is our lead technician with 10 years of experience in phone and electronic repairs. He ensures precision and quality in every service.</p>
+        <div class="col-md-6 d-flex justify-content-around">
+          <div class="specialist-img-box" data-id="1">
+            <img src="{{ asset('images/specialist (2).jpg') }}" class="img-fluid rounded-circle specialist-img" alt="Specialist 1">
+            <h6 class="text-center mt-2">John Doe</h6>
           </div>
-          <div class="specialist-info" data-id="2" style="display:none;">
-            <h4>Jane Smith</h4>
-            <p>Jane specializes in leather, watch, and shoe repairs. Her meticulous approach guarantees client satisfaction and flawless results.</p>
+          <div class="specialist-img-box" data-id="2">
+            <img src="{{ asset('images/specialist (1).jpg') }}" class="img-fluid rounded-circle specialist-img" alt="Specialist 2">
+            <h6 class="text-center mt-2">Jane Smith</h6>
           </div>
         </div>
-      </div>
 
+        <div class="col-md-8 mt-4">
+          <div class="specialist-data">
+            <div class="specialist-info text-dark" data-id="1">
+              <h4>John Doe</h4>
+              <p>John is our lead technician with 10 years of experience in phone and electronic repairs. He ensures precision and quality in every service.</p>
+            </div>
+            <div class="specialist-info" data-id="2" style="display:none;">
+              <h4>Jane Smith</h4>
+              <p>Jane specializes in leather, watch, and shoe repairs. Her meticulous approach guarantees client satisfaction and flawless results.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
 </main>
 
 <!-- FOOTER -->
-  <footer class="footer-section py-5 bg-white text-dark font-ui">
+<footer class="footer-section py-5 bg-white text-dark font-ui">
   <div class="container">
     <div class="row align-items-start">
 
       <!-- LEFT: Logo & Brand -->
       <div class="col-md-3 mb-4 mb-md-0 d-flex flex-row align-items-md-start align-items-center text-center text-md-start">
-        <img src="../images/jmk_logo.png" alt="Logo" height="60" class="mb-2">
+        <img src="{{ asset('images/jmk_logo.png') }}" alt="Logo" height="60" class="mb-2">
       </div>
 
       <!-- CENTER: Navigation Links -->
@@ -553,7 +551,6 @@
           <li><a href="{{ route('about') }}" class="footer-link">About</a></li>
           <li><a href="{{ route('services') }}" class="footer-link">Services</a></li>
           <li><a href="{{ route('contact') }}" class="footer-link">Contact</a></li>
-         
         </ul>
       </div>
 
@@ -565,12 +562,11 @@
         <p class="mb-3 small">0505090296 <br> 0505481819</p>
 
         <div class="d-flex gap-3">
-       <a href="#" class="social-icon">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
-    <path d="M13.5 9H15.5L16 6H13.5V4.5C13.5 3.7 13.8 3.2 15 3.2H16V1.1C15.4 1 14.7 0.9 14 0.9C11.8 0.9 10.3 2.2 10.3 4.6V6H8V9H10.3V24H13.5V9Z"/>
-  </svg>
-</a>
-
+          <a href="#" class="social-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M13.5 9H15.5L16 6H13.5V4.5C13.5 3.7 13.8 3.2 15 3.2H16V1.1C15.4 1 14.7 0.9 14 0.9C11.8 0.9 10.3 2.2 10.3 4.6V6H8V9H10.3V24H13.5V9Z"/>
+            </svg>
+          </a>
           <a href="#" class="social-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
               <path d="M5 15c6 0 9.3-5 9.3-9.3v-.4A6.7 6.7 0 0 0 16 3.1a6.6 6.6 0 0 1-1.9.5A3.3 3.3 0 0 0 15.5 2a6.6 6.6 0 0 1-2.1.8A3.3 3.3 0 0 0 7.9 5.7 9.4 9.4 0 0 1 1.1 1.1a3.3 3.3 0 0 0 1 4.4 3.2 3.2 0 0 1-1.5-.4v.1A3.3 3.3 0 0 0 3.3 9.1a3.3 3.3 0 0 1-.9.1 3.3 3.3 0 0 0 3.1 2.3A6.6 6.6 0 0 1 0 13.5a9.3 9.3 0 0 0 5 1.5"/>
@@ -587,7 +583,6 @@
               <path d="M8.051 1.999h-.102c-1.23.003-3.656.022-5.333.15-1.452.114-2.24 1.003-2.374 2.374C.07 5.17.051 7.595.051 8c0 .404.02 2.83.191 3.477.134 1.37.922 2.26 2.374 2.374 1.677.128 4.103.147 5.333.15h.102c1.23-.003 3.656-.022 5.333-.15 1.452-.114 2.24-1.003 2.374-2.374.17-.648.191-3.073.191-3.477s-.02-2.83-.191-3.477c-.134-1.37-.922-2.26-2.374-2.374-1.677-.128-4.103-.147-5.333-.15zM6.625 5.5l3.5 2.5-3.5 2.5v-5z"/>
             </svg>
           </a>
-
         </div>
 
       </div>
@@ -596,7 +591,7 @@
   </div>
 </footer>
 
-<!-- JS — defer lagaya hai, page block nahi karega -->
+<!-- JS -->
 <script src="{{ asset('js/script.js') }}" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer></script>
 
