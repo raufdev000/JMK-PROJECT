@@ -11,9 +11,8 @@
   <meta name="robots" content="index, follow">
   <meta name="author" content="JMK Repairs Dubai">
   <link rel="canonical" href="https://jmkrepairs.com/">
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap">
-<link rel="preload" as="image" href="{{ asset('images/main-banner.webp') }}">
-  <!-- Geo Tags (Local SEO) -->
+
+  <!-- Geo Tags -->
   <meta name="geo.region" content="AE-DU">
   <meta name="geo.placename" content="Al Karama, Dubai">
   <meta name="geo.position" content="25.2354;55.3000">
@@ -66,12 +65,14 @@
   }
   </script>
 
+  <!-- Preload Hero Image -->
+  <link rel="preload" as="image" href="{{ asset('images/main-banner.webp') }}">
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 </head>
@@ -101,16 +102,8 @@
           <li class="nav-item">
             <a class="nav-link active-nav" href="{{ route('index') }}">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ route('about') }}">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ route('contact') }}">Contact</a>
-          </li>
-
-          <!-- DROPDOWN -->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="{{ route('services') }}" role="button" data-bs-toggle="dropdown">
+            <li class="nav-item dropdown">
+            <a class="nav-link " href="{{ route('services') }}" role="button" data-bs-toggle="dropdown">
               Services
             </a>
             <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
@@ -126,6 +119,15 @@
               <li><a class="dropdown-item" href="{{ route('losthome') }}">Lost home kyes</a></li>
             </ul>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ route('about') }}">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+          </li>
+
+          <!-- DROPDOWN -->
+        
 
         </ul>
       </div>

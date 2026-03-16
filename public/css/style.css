@@ -698,6 +698,7 @@ font-size: larger;
 .dropdown-menu {
   border-radius: 10px;
   padding: 5px 0;
+
 }
 
 .dropdown-item {
@@ -1676,13 +1677,13 @@ font-size: larger;
 }
 
 .dropdown-item {
-    color: rgba(255, 255, 255, 0.9) !important;
+    color: rgba(245, 241, 241, 0.9) !important;
     transition: all 0.3s ease;
 }
 
 .dropdown-item:hover {
     background: rgba(248, 4, 4, 0.932) !important;
-    color: #fff !important;
+    color: #f5f2f2 !important;
 }
 
 /* ========================================

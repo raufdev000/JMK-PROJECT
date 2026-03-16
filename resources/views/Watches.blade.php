@@ -429,57 +429,57 @@
   </head>
   <body>
  <header>
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark   top-0 start-0 w-100 py-3 font-ui">
-    <div class="container">
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-0 start-0 w-100 py-3 font-ui" aria-label="Main Navigation">
+        <div class="container">
 
-      <!-- LOGO LEFT -->
-      <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="../images/jmk_logo.png" alt="Logo" height="55" class="me-2">
-      </a>
+          <!-- LOGO LEFT -->
+          <a class="navbar-brand d-flex align-items-center" href="{{ route('index') }}" aria-label="JMK Repairs Home">
+            <img src="../images/jmk_logo.png" alt="JMK Repairs Dubai Logo" height="55" width="70" class="me-2">
+          </a>
 
-      <!-- TOGGLER -->
-      <button class="navbar-toggler border-0 shadow-none red-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+          <!-- TOGGLER -->
+          <button class="navbar-toggler border-0 shadow-none red-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <!-- LINKS RIGHT -->
-      <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
-        <ul class="navbar-nav gap-lg-4 text-center text-lg-start">
+          <!-- LINKS RIGHT -->
+          <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+            <ul class="navbar-nav gap-lg-4 text-center text-lg-start">
 
-          <li class="nav-item">
-            <a class="nav-link " href="{{ route('index') }}">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="{{ route('about') }}">About</a>
-          </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ route('index') }}">Home</a>
+              </li>
+                     <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active-nav" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Services dropdown">
+                  Services
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                  <li><a class="dropdown-item" href="{{ route('Lock') }}">Lock Repairing</a></li>
+                  <li><a class="dropdown-item" href="{{ route('Phone') }}">Phone Repairing</a></li>
+                  <li><a class="dropdown-item" href="{{ route('Watches') }}">Watch Repairing</a></li>
+                  <li><a class="dropdown-item" href="{{ route('leather') }}">Leather Work's</a></li>
+                  <li><a class="dropdown-item" href="{{ route('Shoe') }}">Shoe Repairing</a></li>
+                  <li><a class="dropdown-item" href="{{ route('Key') }}">Key Duplicating</a></li>
+                  <li><a class="dropdown-item" href="{{ route('suitcase') }}">Suitcase Repairing</a></li>
+                  <li><a class="dropdown-item" href="{{ route('Access') }}">Access Card Repairing</a></li>
+                  <li><a class="dropdown-item" href="{{ route('lostcar') }}">Lost Car Keys</a></li>
+                  <li><a class="dropdown-item" href="{{ route('losthome') }}">Lost Home Keys</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="{{ route('about') }}" aria-current="page">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+              </li>
+
+              <!-- DROPDOWN -->
        
-          <li class="nav-item">
-            <a class="nav-link " href="{{ route('contact') }}">Contact</a>
-          </li>
 
-          <!-- DROPDOWN -->
-    <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active-nav" href="#" role="button" data-bs-toggle="dropdown">
-              Services
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-                <li><a class="dropdown-item" href="{{ route('Lock') }}">lock Repairing</a></li>
-              <li><a class="dropdown-item" href="{{ route('Phone') }}">Phone Repairing</a></li>
-              <li><a class="dropdown-item" href="{{ route('Watches') }}">Watch Repairing</a></li>
-              <li><a class="dropdown-item" href="{{ route('leather') }}">Leather work's</a></li>
-              <li><a class="dropdown-item" href="{{ route('Shoe') }}">Shoe Repairing</a></li>
-              <li><a class="dropdown-item" href="{{ route('Key') }}">Key duplicating</a></li>
-                            <li><a class="dropdown-item" href="{{ route('suitcase') }}">Suitcase repairing</a></li>
-                            <li><a class="dropdown-item" href="{{ route('Access') }}">Access card repairing</a></li>
-                            <li><a class="dropdown-item" href="{{ route('lostcar') }}">Lost car keys</a></li>
-                            <li><a class="dropdown-item" href="{{ route('losthome') }}">Lost home kyes</a></li>
             </ul>
-          </li>
-
-        </ul>
-      </div>
-    </div>
-  </nav>
+          </div>
+        </div>
+      </nav>
   <div class="whatsapp-floating-btn">
  <a href="https://wa.me/+9710505090296" target="_blank" class="whatsapp-float-link">
     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">

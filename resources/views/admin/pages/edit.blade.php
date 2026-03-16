@@ -203,7 +203,7 @@ tinymce.init({
                 <label class="form-label fw-semibold">Meta Description
                     <span id="metaDescCount" class="badge bg-secondary ms-2">{{ strlen($page->meta_description ?? '') }}/160</span>
                 </label>
-                <textarea name="meta_description" id="metaDesc" class="form-control" rows="3" maxlength="160"
+                <textarea name="meta_description" id="metaDesc" class="form-control" rows="3" 
                           oninput="updateCount('metaDesc','metaDescCount',160); document.getElementById('gDesc').textContent=this.value||'Meta description here...'">{{ old('meta_description', $page->meta_description) }}</textarea>
             </div>
 
