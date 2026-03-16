@@ -141,7 +141,7 @@
 </div>
 
  <div class="hero-image mb-0">
-  <img src="../images/hero-banner.webp" alt="Hero Image">
+  <img src="../images/main-banner.webp" alt="Hero Image">
   
   <!-- Hero Text Carousel Overlay -->
   <div class="hero-text-overlay">
