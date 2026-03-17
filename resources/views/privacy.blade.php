@@ -1,23 +1,46 @@
 <!doctype html>
 <html lang="en">
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO Meta Tags -->
   <title>Privacy Policy | JMK Repairs Dubai</title>
   <meta name="description" content="Read JMK Repairs Dubai's privacy policy. Learn how we collect, use and protect your personal information at our Al Karama repair center.">
   <meta name="robots" content="index, follow">
+  <meta name="author" content="JMK Repairs Dubai">
   <link rel="canonical" href="https://jmkrepairs.com/privacy-policy">
-  <link rel="icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
 
+  <!-- Open Graph -->
+  <meta property="og:title" content="Privacy Policy | JMK Repairs Dubai">
+  <meta property="og:description" content="Read JMK Repairs Dubai's privacy policy. We protect your personal information.">
+  <meta property="og:url" content="https://jmkrepairs.com/privacy-policy">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="JMK Repairs Dubai">
+  <meta property="og:image" content="https://jmkrepairs.com/images/jmk_logo.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Privacy Policy | JMK Repairs Dubai">
+  <meta name="twitter:image" content="https://jmkrepairs.com/images/jmk_logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
+  <link rel="shortcut icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
+  <link rel="apple-touch-icon" href="{{ asset('images/jmk_logo.png') }}">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="{{ asset('css/style.css') }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
   <style>
-
-
+    body { font-family: 'Poppins', sans-serif; background: #f8f9fa; }
+    
     .pp-hero {
       background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
       padding: 80px 0 60px;
@@ -25,7 +48,7 @@
       position: relative;
       overflow: hidden;
     }
-
+ 
     .pp-hero::before {
       content: '';
       position: absolute;
@@ -34,10 +57,10 @@
       background: radial-gradient(circle, rgba(231,76,60,0.15) 0%, transparent 70%);
       border-radius: 50%;
     }
-
+ 
     .pp-hero h1 { font-size: 2.5rem; font-weight: 700; }
     .pp-hero p { color: rgba(255,255,255,0.7); font-size: 1rem; }
-
+ 
     .pp-badge {
       display: inline-block;
       background: rgba(231,76,60,0.2);
@@ -49,9 +72,9 @@
       font-weight: 600;
       margin-bottom: 20px;
     }
-
+ 
     .pp-body { padding: 60px 0; }
-
+ 
     .pp-card {
       background: white;
       border-radius: 16px;
@@ -61,9 +84,9 @@
       border-left: 4px solid #e74c3c;
       transition: transform 0.2s ease;
     }
-
+ 
     .pp-card:hover { transform: translateY(-3px); }
-
+ 
     .pp-card h2 {
       font-size: 1.25rem;
       font-weight: 700;
@@ -73,7 +96,7 @@
       align-items: center;
       gap: 12px;
     }
-
+ 
     .pp-card h2 .icon {
       width: 40px; height: 40px;
       background: linear-gradient(135deg, #e74c3c, #c0392b);
@@ -85,21 +108,21 @@
       font-size: 1.1rem;
       flex-shrink: 0;
     }
-
+ 
     .pp-card p, .pp-card li {
       color: #6b7280;
       font-size: 0.95rem;
       line-height: 1.8;
       margin-bottom: 0;
     }
-
+ 
     .pp-card ul { padding-left: 0; list-style: none; margin-bottom: 0; }
-
+ 
     .pp-card ul li {
       padding: 5px 0 5px 20px;
       position: relative;
     }
-
+ 
     .pp-card ul li::before {
       content: '→';
       position: absolute;
@@ -107,16 +130,16 @@
       color: #e74c3c;
       font-weight: bold;
     }
-
+ 
     .pp-sidebar { position: sticky; top: 20px; }
-
+ 
     .pp-nav {
       background: white;
       border-radius: 16px;
       padding: 28px;
       box-shadow: 0 2px 20px rgba(0,0,0,0.06);
     }
-
+ 
     .pp-nav h6 {
       font-weight: 700;
       color: #1a1a2e;
@@ -125,7 +148,7 @@
       text-transform: uppercase;
       letter-spacing: 1px;
     }
-
+ 
     .pp-nav a {
       display: block;
       padding: 8px 12px;
@@ -136,13 +159,13 @@
       transition: all 0.2s;
       margin-bottom: 4px;
     }
-
+ 
     .pp-nav a:hover {
       background: #fff5f5;
       color: #e74c3c;
       padding-left: 18px;
     }
-
+ 
     .pp-contact-box {
       background: linear-gradient(135deg, #1a1a2e, #0f3460);
       border-radius: 16px;
@@ -151,10 +174,10 @@
       margin-top: 20px;
       text-align: center;
     }
-
+ 
     .pp-contact-box h6 { font-weight: 700; margin-bottom: 10px; }
     .pp-contact-box p { font-size: 0.85rem; opacity: 0.8; margin-bottom: 15px; }
-
+ 
     .pp-contact-box a {
       background: #e74c3c;
       color: white;
@@ -166,9 +189,9 @@
       display: inline-block;
       transition: background 0.2s;
     }
-
+ 
     .pp-contact-box a:hover { background: #c0392b; color: white; }
-
+ 
     .pp-updated {
       background: #fff5f5;
       border: 1px solid #fecaca;
