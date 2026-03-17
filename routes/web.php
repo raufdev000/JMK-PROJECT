@@ -27,6 +27,7 @@ Route::get('/suitcase', [PageController::class, 'suitcase'])->name('suitcase');
 Route::get('/access', [PageController::class, 'access'])->name('Access');
 Route::get('/lostcar', [PageController::class, 'lostcar'])->name('lostcar');
 Route::get('/losthome', [PageController::class, 'losthome'])->name('losthome');
+Route::get('/privacy', [PageController::class, 'privacy'])->name('privacy');
 
 Route::post('/contact-send', [ContactController::class, 'send'])->name('contact.send');
 Route::post('/appointment-send', [AppointmentController::class, 'send'])->name('appointment.send');

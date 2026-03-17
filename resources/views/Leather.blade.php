@@ -1018,58 +1018,56 @@
     </div>
 </section>
  </main>
-   <footer class="footer-section py-5 bg-white text-dark font-ui">
+<footer class="footer-section py-5 bg-white text-dark font-ui">
   <div class="container">
     <div class="row align-items-start">
 
       <!-- LEFT: Logo & Brand -->
       <div class="col-md-3 mb-4 mb-md-0 d-flex flex-row align-items-md-start align-items-center text-center text-md-start">
-        <img src="../images/jmk_logo.png" alt="Logo" height="60" class="mb-2">
+        <img src="{{ asset('images/jmk_logo.png') }}" alt="Logo" height="60" class="mb-2">
       </div>
 
       <!-- CENTER: Navigation Links -->
       <div class="col-md-4 mb-4 mb-md-0 text-center">
-        <h6 class="fw-bold mb-3">Quick Links</h6>
+        <h4 class="fw-bold mb-3">Quick Links</h4>
         <ul class="list-unstyled">
           <li><a href="{{ route('index') }}" class="footer-link">Home</a></li>
           <li><a href="{{ route('about') }}" class="footer-link">About</a></li>
           <li><a href="{{ route('services') }}" class="footer-link">Services</a></li>
           <li><a href="{{ route('contact') }}" class="footer-link">Contact</a></li>
-         
+          <li><a href="{{ route('privacy') }}" class="footer-link">Privacy & Policy</a></li>
         </ul>
       </div>
 
       <!-- RIGHT: Contact & Social Icons -->
       <div class="col-md-5 d-flex flex-column align-items-md-end align-items-center">
-        <h6 class="fw-bold mb-3">Contact Us</h6>
+      <h4 class="fw-bold mb-3">Contact us</h4>
         <p class="mb-1 small">📍 JMk – Al Karama, Dubai, UAE</p>
         <p class="mb-1 small">Jumakhanzhob1@gmail.com</p>
         <p class="mb-3 small">0505090296 <br> 0505481819</p>
 
         <div class="d-flex gap-3">
-       <a href="#" class="social-icon">
-  <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
-    <path d="M13.5 9H15.5L16 6H13.5V4.5C13.5 3.7 13.8 3.2 15 3.2H16V1.1C15.4 1 14.7 0.9 14 0.9C11.8 0.9 10.3 2.2 10.3 4.6V6H8V9H10.3V24H13.5V9Z"/>
-  </svg>
-</a>
-
-          <a href="#" class="social-icon">
+          <a href="#" class="social-icon" aria-label="JMK Repairs on Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M13.5 9H15.5L16 6H13.5V4.5C13.5 3.7 13.8 3.2 15 3.2H16V1.1C15.4 1 14.7 0.9 14 0.9C11.8 0.9 10.3 2.2 10.3 4.6V6H8V9H10.3V24H13.5V9Z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="JMK Repairs on Twitter">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
               <path d="M5 15c6 0 9.3-5 9.3-9.3v-.4A6.7 6.7 0 0 0 16 3.1a6.6 6.6 0 0 1-1.9.5A3.3 3.3 0 0 0 15.5 2a6.6 6.6 0 0 1-2.1.8A3.3 3.3 0 0 0 7.9 5.7 9.4 9.4 0 0 1 1.1 1.1a3.3 3.3 0 0 0 1 4.4 3.2 3.2 0 0 1-1.5-.4v.1A3.3 3.3 0 0 0 3.3 9.1a3.3 3.3 0 0 1-.9.1 3.3 3.3 0 0 0 3.1 2.3A6.6 6.6 0 0 1 0 13.5a9.3 9.3 0 0 0 5 1.5"/>
             </svg>
           </a>
-          <a href="#" class="social-icon">
+          <a href="#" class="social-icon" aria-label="JMK Repairs on Instagram">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
               <path d="M8 4.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
               <path d="M12.5 1h-9A2.5 2.5 0 0 0 1 3.5v9A2.5 2.5 0 0 0 3.5 15h9a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 12.5 1zm1 11.5a1 1 0 0 1-1 1h-9a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v9z"/>
             </svg>
           </a>
-          <a href="#" class="social-icon">
+          <a href="#" class="social-icon" aria-label="JMK Repairs on Youtube">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
               <path d="M8.051 1.999h-.102c-1.23.003-3.656.022-5.333.15-1.452.114-2.24 1.003-2.374 2.374C.07 5.17.051 7.595.051 8c0 .404.02 2.83.191 3.477.134 1.37.922 2.26 2.374 2.374 1.677.128 4.103.147 5.333.15h.102c1.23-.003 3.656-.022 5.333-.15 1.452-.114 2.24-1.003 2.374-2.374.17-.648.191-3.073.191-3.477s-.02-2.83-.191-3.477c-.134-1.37-.922-2.26-2.374-2.374-1.677-.128-4.103-.147-5.333-.15zM6.625 5.5l3.5 2.5-3.5 2.5v-5z"/>
             </svg>
           </a>
-
         </div>
 
       </div>

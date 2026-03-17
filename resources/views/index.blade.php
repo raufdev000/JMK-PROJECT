@@ -555,6 +555,7 @@
           <li><a href="{{ route('about') }}" class="footer-link">About</a></li>
           <li><a href="{{ route('services') }}" class="footer-link">Services</a></li>
           <li><a href="{{ route('contact') }}" class="footer-link">Contact</a></li>
+          <li><a href="{{ route('privacy') }}" class="footer-link">Privacy & Policy</a></li>
         </ul>
       </div>
 

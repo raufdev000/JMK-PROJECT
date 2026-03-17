@@ -136,4 +136,13 @@ class PageController extends Controller
             'seo_description' => $seo?->meta_description,
         ]);
     }
+
+    public function privacy()
+    {
+        $seo = SeoSetting::where('page_key', 'privacy-policy')->first();
+        return view('privacy', [
+            'seo_title'       => $seo?->meta_title,
+            'seo_description' => $seo?->meta_description,
+        ]);
+    }
 }
