@@ -61,4 +61,4 @@ Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () 
 });
 Route::get('/privacy-policy', function () {
     return view('privacy');
-})->name('privacy.policy');
+})->name('privacy');
