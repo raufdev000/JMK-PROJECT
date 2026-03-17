@@ -60,5 +60,5 @@ Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () 
     Route::post('/seo', [AdminSeoController::class, 'update'])->name('seo.update');
 });
 Route::get('/privacy-policy', function () {
-    return view('privacy-policy');
+    return view('privacy');
 })->name('privacy.policy');
