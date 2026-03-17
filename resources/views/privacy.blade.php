@@ -16,7 +16,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
   <style>
-    body { font-family: 'Poppins', sans-serif; background: #f8f9fa; }
+
 
     .pp-hero {
       background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
@@ -237,7 +237,7 @@
     </div>
   </nav>
 <!-- HERO -->
-<div class="pp-hero">
+<div class="pp-hero font-ui">
   <div class="container">
     <div class="pp-badge">📄 Legal Document</div>
     <h1>Privacy Policy</h1>
