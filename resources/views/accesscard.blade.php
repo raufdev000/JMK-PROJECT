@@ -503,23 +503,23 @@
               <li class="nav-item">
                 <a class="nav-link" href="{{ route('index') }}">Home</a>
               </li>
-                     <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle active-nav" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Services dropdown">
-                  Services
-                </a>
-                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
-                  <li><a class="dropdown-item" href="{{ route('Lock') }}">Lock Repairing</a></li>
-                  <li><a class="dropdown-item" href="{{ route('Phone') }}">Phone Repairing</a></li>
-                  <li><a class="dropdown-item" href="{{ route('Watches') }}">Watch Repairing</a></li>
-                  <li><a class="dropdown-item" href="{{ route('leather') }}">Leather Work's</a></li>
-                  <li><a class="dropdown-item" href="{{ route('Shoe') }}">Shoe Repairing</a></li>
-                  <li><a class="dropdown-item" href="{{ route('Key') }}">Key Duplicating</a></li>
-                  <li><a class="dropdown-item" href="{{ route('suitcase') }}">Suitcase Repairing</a></li>
-                  <li><a class="dropdown-item" href="{{ route('Access') }}">Access Card Repairing</a></li>
-                  <li><a class="dropdown-item" href="{{ route('lostcar') }}">Lost Car Keys</a></li>
-                  <li><a class="dropdown-item" href="{{ route('losthome') }}">Lost Home Keys</a></li>
-                </ul>
-              </li>
+                  <li class="nav-item dropdown">
+            <a class="nav-link " href="{{ route('services') }}" role="button" data-bs-toggle="dropdown">
+              Services
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                   <li><a class="dropdown-item" href="{{ route('suitcase') }}">Suitcase repairing</a></li>
+                   <li><a class="dropdown-item" href="{{ route('Key') }}">Key duplicating</a></li>
+                       <li><a class="dropdown-item" href="{{ route('lostcar') }}">Lost car keys</a></li>
+                     <li><a class="dropdown-item" href="{{ route('Watches') }}">Watch Repairing</a></li>
+              <li><a class="dropdown-item" href="{{ route('Lock') }}">lock Repairing</a></li>
+              <li><a class="dropdown-item" href="{{ route('Phone') }}">Phone Repairing</a></li>
+     <li><a class="dropdown-item" href="{{ route('Shoe') }}">Shoe Repairing</a></li>
+              <li><a class="dropdown-item" href="{{ route('leather') }}">Leather work's</a></li>
+              <li><a class="dropdown-item" href="{{ route('Access') }}">Access card repairing</a></li>
+              <li><a class="dropdown-item" href="{{ route('losthome') }}">Lost home kyes</a></li>
+            </ul>
+          </li>
               <li class="nav-item">
                 <a class="nav-link " href="{{ route('about') }}" aria-current="page">About</a>
               </li>
