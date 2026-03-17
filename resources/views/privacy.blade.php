@@ -184,7 +184,58 @@
   </style>
 </head>
 <body>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0 start-0 w-100 py-3">
+    <div class="container">
 
+      <!-- LOGO LEFT -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="{{ asset('images/jmk_logo.png') }}" alt="Logo" height="55" class="me-2">
+        <span class="fw-semibold shop-name d-none d-lg-block">Juma khan shoes & watches repairing</span>
+      </a>
+
+      <!-- TOGGLER -->
+<button class="navbar-toggler border-0 shadow-none red-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- LINKS RIGHT -->
+      <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+        <ul class="navbar-nav gap-lg-4 text-center text-lg-start">
+
+          <li class="nav-item">
+            <a class="nav-link " href="{{ route('index') }}">Home</a>
+          </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link " href="{{ route('services') }}" role="button" data-bs-toggle="dropdown">
+              Services
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                   <li><a class="dropdown-item" href="{{ route('suitcase') }}">Suitcase repairing</a></li>
+                   <li><a class="dropdown-item" href="{{ route('Key') }}">Key duplicating</a></li>
+                       <li><a class="dropdown-item" href="{{ route('lostcar') }}">Lost car keys</a></li>
+                     <li><a class="dropdown-item" href="{{ route('Watches') }}">Watch Repairing</a></li>
+              <li><a class="dropdown-item" href="{{ route('Lock') }}">lock Repairing</a></li>
+              <li><a class="dropdown-item" href="{{ route('Phone') }}">Phone Repairing</a></li>
+     <li><a class="dropdown-item" href="{{ route('Shoe') }}">Shoe Repairing</a></li>
+              <li><a class="dropdown-item" href="{{ route('leather') }}">Leather work's</a></li>
+              <li><a class="dropdown-item" href="{{ route('Access') }}">Access card repairing</a></li>
+              <li><a class="dropdown-item" href="{{ route('losthome') }}">Lost home kyes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ route('about') }}">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+          </li>
+
+          <!-- DROPDOWN -->
+        
+
+        </ul>
+      </div>
+    </div>
+  </nav>
 <!-- HERO -->
 <div class="pp-hero">
   <div class="container">
