@@ -14,19 +14,19 @@ use App\Http\Controllers\Admin\SeoController as AdminSeoController;
 
 Route::get('/', [PageController::class, 'index'])->name('index');
 
-Route::get('/contact', [PageController::class, 'contact'])->name('contact');
-Route::get('/about', [PageController::class, 'about'])->name('about');
+Route::get('/contact-us', [PageController::class, 'contact'])->name('contact');
+Route::get('/about-us', [PageController::class, 'about'])->name('about');
 Route::get('/services', [PageController::class, 'services'])->name('services');
-Route::get('/watches', [PageController::class, 'watches'])->name('Watches');
-Route::get('/key', [PageController::class, 'key'])->name('Key');
-Route::get('/lock', [PageController::class, 'lock'])->name('Lock');
-Route::get('/shoe', [PageController::class, 'shoe'])->name('Shoe');
-Route::get('/leather', [PageController::class, 'leather'])->name('leather');
-Route::get('/phone', [PageController::class, 'Phone'])->name('Phone');
-Route::get('/suitcase', [PageController::class, 'suitcase'])->name('suitcase');
-Route::get('/access', [PageController::class, 'access'])->name('Access');
-Route::get('/lostcar', [PageController::class, 'lostcar'])->name('lostcar');
-Route::get('/losthome', [PageController::class, 'losthome'])->name('losthome');
+Route::get('/watch-repair-dubai', [PageController::class, 'watches'])->name('Watches');
+Route::get('/key-duplication-dubai', [PageController::class, 'key'])->name('Key');
+Route::get('/lock-repair-dubai', [PageController::class, 'lock'])->name('Lock');
+Route::get('/shoe-repair-dubai', [PageController::class, 'shoe'])->name('Shoe');
+Route::get('/leather-repair-dubai', [PageController::class, 'leather'])->name('leather');
+Route::get('/phone-repair-dubai', [PageController::class, 'Phone'])->name('Phone');
+Route::get('/suitcase-repair-dubai', [PageController::class, 'suitcase'])->name('suitcase');
+Route::get('/access-card-repair-dubai', [PageController::class, 'access'])->name('Access');
+Route::get('/lost-car-keys-dubai', [PageController::class, 'lostcar'])->name('lostcar');
+Route::get('/lost-house-keys-dubai', [PageController::class, 'losthome'])->name('losthome');
 Route::post('/contact-send', [ContactController::class, 'send'])->name('contact.send');
 Route::post('/appointment-send', [AppointmentController::class, 'send'])->name('appointment.send');
 Route::get('/dashboard', function () {
