@@ -37,6 +37,7 @@
   <link rel="icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
   <link rel="shortcut icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
   <link rel="apple-touch-icon" href="{{ asset('images/jmk_logo.png') }}">
+  
 
   <!-- Schema Markup -->
   <script type="application/ld+json">
@@ -74,7 +75,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+<script src="https://elfsightcdn.com/platform.js" async></script>
 </head>
 <body>
 
@@ -85,9 +86,9 @@
     <div class="container">
 
       <!-- LOGO LEFT -->
-      <a class="navbar-brand d-flex align-items-center" href="#">
+      <a class="navbar-brand d-flex align-items-center" href="{{ route('index') }}"">
         <img src="{{ asset('images/jmk_logo.png') }}" alt="Logo" height="55" class="me-2">
-        <span class="fw-semibold shop-name d-none d-lg-block">Juma khan shoes & watches repairing</span>
+        <span class="fw-semibold shop-name d-none d-lg-block"></span>
       </a>
 
       <!-- TOGGLER -->
@@ -126,7 +127,12 @@
             <a class="nav-link" href="{{ route('contact') }}">Contact</a>
           </li>
 
-          <!-- DROPDOWN -->
+     <li class="nav-item d-none d-lg-block ms-2">
+<a class="btn btn-primary btn-sm rounded-pill d-flex align-items-center gap-2 px-3 py-2" href="tel:+971505090296">
+        <i class="bi bi-telephone-fill"></i> Call Us
+    </a>
+</li>
+
         
 
         </ul>
@@ -146,17 +152,12 @@
   </div>
 
   <div class="hero-image mb-0">
-    <img src="{{ asset('images/main-banner.webp') }}"  alt="Hero Image"  fetchpriority="high">>
+    <img src="{{ asset('images/third-banner.webp') }}"  alt="Hero Image"  fetchpriority="high">>
 
     <!-- Hero Text Carousel Overlay -->
     <div class="hero-text-overlay">
       <div class="container">
         <div class="hero-content">
-          <!-- Brand Badge -->
-          <div class="brand-badge">
-            <span class="badge-icon">⚡</span>
-            <span>Trusted Since Years</span>
-          </div>
 
           <!-- Carousel Text Container -->
           <div class="carousel-text-wrapper">
@@ -187,6 +188,8 @@
             </a>
           </div>
         </div>
+        
+
       </div>
     </div>
   </div>
@@ -390,51 +393,7 @@
       </div>
     </div>
   </div>
-
-  <!-- ABOUT SECTION -->
-  <section class="about-section d-flex align-items-center font-ui" aria-labelledby="about-heading">
-    <div class="container">
-      <div class="row g-4 align-items-center">
-
-        <div class="col-lg-6">
-          <div class="glass-card p-4 p-md-5">
-            <h3 class="text-danger fw-bold mb-2">About Our Repair Shop</h3>
-            <h2 id="about-heading" class="fw-bold mb-3">We Bring Your Devices Back to Life</h2>
-           <h3 class="text-muted mb-3">Fast • Reliable • Affordable Services</h3>
-            <p class="mb-2">We specialize in professional repair services for phones, watches, shoes, locks, and leather goods in Al Karama, Dubai.</p>
-            <p class="mb-2">Our expert technicians use modern tools and genuine parts to ensure long-lasting results.</p>
-            <p class="mb-2">Customer satisfaction is our top priority, and we guarantee quality workmanship on every repair.</p>
-            <p class="mb-0">Visit us today and experience fast service with honest pricing and trusted expertise.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-6 font-ui">
-          <div class="glass-card highlight-card p-4 p-md-5 text-center text-lg-start">
-            <h3 class="fw-bold mb-3">Why Choose Us?</h3>
-            <div class="feature-item mb-3">
-              <h4 class="fw-bold mb-1">⚡ Quick Turnaround</h4>
-              <p class="mb-0 text-muted">Most repairs completed the same day.</p>
-            </div>
-            <div class="feature-item mb-3">
-              <h4 class="fw-bold mb-1">🛠 Skilled Professionals</h4>
-              <p class="mb-0 text-muted">Experienced technicians for every repair type.</p>
-            </div>
-            <div class="feature-item mb-3">
-              <h4 class="fw-bold mb-1">💰 Affordable Pricing</h4>
-              <p class="mb-0 text-muted">High-quality service without high costs.</p>
-            </div>
-            <div class="feature-item">
-              <h4 class="fw-bold mb-1">⭐ Trusted by Customers</h4>
-              <p class="mb-0 text-muted">Hundreds of satisfied clients every month.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ SECTION -->
+   
   <section class="modern-faq py-5 slide-left" aria-labelledby="faq-heading">
     <div class="container">
       <h2 id="faq-heading" class="text-center mb-4">Frequently Asked Questions</h2>
@@ -500,6 +459,51 @@
     </div>
   </section>
 
+  <!-- ABOUT SECTION -->
+  <section class="about-section d-flex align-items-center font-ui" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+
+        <div class="col-lg-6">
+          <div class="glass-card p-4 p-md-5">
+            <h3 class="text-danger fw-bold mb-2">About Our Repair Shop</h3>
+            <h2 id="about-heading" class="fw-bold mb-3">We Bring Your Devices Back to Life</h2>
+           <h3 class="text-muted mb-3">Fast • Reliable • Affordable Services</h3>
+            <p class="mb-2">We specialize in professional repair services for phones, watches, shoes, locks, and leather goods in Al Karama, Dubai.</p>
+            <p class="mb-2">Our expert technicians use modern tools and genuine parts to ensure long-lasting results.</p>
+            <p class="mb-2">Customer satisfaction is our top priority, and we guarantee quality workmanship on every repair.</p>
+            <p class="mb-0">Visit us today and experience fast service with honest pricing and trusted expertise.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 font-ui">
+          <div class="glass-card highlight-card p-4 p-md-5 text-center text-lg-start">
+            <h3 class="fw-bold mb-3">Why Choose Us?</h3>
+            <div class="feature-item mb-3">
+              <h4 class="fw-bold mb-1">⚡ Quick Turnaround</h4>
+              <p class="mb-0 text-muted">Most repairs completed the same day.</p>
+            </div>
+            <div class="feature-item mb-3">
+              <h4 class="fw-bold mb-1">🛠 Skilled Professionals</h4>
+              <p class="mb-0 text-muted">Experienced technicians for every repair type.</p>
+            </div>
+            <div class="feature-item mb-3">
+              <h4 class="fw-bold mb-1">💰 Affordable Pricing</h4>
+              <p class="mb-0 text-muted">High-quality service without high costs.</p>
+            </div>
+            <div class="feature-item">
+              <h4 class="fw-bold mb-1">⭐ Trusted by Customers</h4>
+              <p class="mb-0 text-muted">Hundreds of satisfied clients every month.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
   <!-- SPECIALISTS SECTION -->
   <section class="specialists-section py-5">
     <div class="container font-ui">
@@ -533,6 +537,15 @@
 
       </div>
     </div>
+    <div class="col-12 text-center mt-3">
+          <div class="brand-badge d-inline-flex">
+            <div class="elfsight-app-626bae25-7b87-4b87-95b9-4452c96330ea" data-elfsight-app-lazy></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</section>
   </section>
 
 </main>

@@ -1281,31 +1281,10 @@ font-size: larger;
     width: 100%;
 
 }
-
-/* ========================================
-   BRAND BADGE - RESPONSIVE
-======================================== */
-.brand-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 8px 10px;
-    border-radius: 50px;
-    font-size: clamp(11px, 2vw, 14px);
-    font-weight: 500;
-    margin-bottom: 20px;
-    animation: slideInDown 0.8s ease-out 0.3s backwards;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+.brand-badge .elfsight-app-626bae25-7b87-4b87-95b9-4452c96330ea {
+    transform: scale(0.90);
+    transform-origin: left center;
 }
-
-.badge-icon {
-    font-size: clamp(14px, 2.5vw, 18px);
-    animation: pulse 2s ease-in-out infinite;
-}
-
 /* ========================================
    MAIN TITLE - RESPONSIVE
 ======================================== */
