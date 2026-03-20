@@ -1,14 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GVZJSM57W3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-GVZJSM57W3');
+  </script>
 
-  gtag('config', 'G-GVZJSM57W3');
-</script> 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -45,7 +46,6 @@
   <link rel="icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
   <link rel="shortcut icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
   <link rel="apple-touch-icon" href="{{ asset('images/jmk_logo.png') }}">
-  <script src="https://elfsightcdn.com/platform.js" async defer></script>
 
   <!-- Schema Markup -->
   <script type="application/ld+json">
@@ -77,46 +77,56 @@
   <!-- Preload Hero Image -->
   <link rel="preload" as="image" href="{{ asset('images/main-banner.webp') }}">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
- <!-- Local files se load karo, preload ke saath -->
-<link rel="preload" href="{{ asset('css/bootstrap.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<link rel="preload" href="{{ asset('css/style.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<!-- Pehle wala hatao -->
-<script src="https://elfsightcdn.com/platform.js" async defer></script>
+  <!-- Bootstrap - Non Blocking -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        as="style" onload="this.onload=null;this.rel='stylesheet'"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+        crossorigin="anonymous">
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  </noscript>
 
-<!-- Yeh lagao - scroll pe load hoga -->
-<script>
-window.addEventListener('scroll', function() {
-    var s = document.createElement('script');
-    s.src = 'https://elfsightcdn.com/platform.js';
-    document.body.appendChild(s);
-}, {once: true});
-</script>
-<style>
-  @font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/poppins-400.woff2') format('woff2');
-    font-weight: 400; font-display: swap;
-}
-@font-face {
-    font-family: 'Poppins';
-    src: url('../fonts/poppins-700.woff2') format('woff2');
-    font-weight: 700; font-display: swap;
-}
-/* 300 aur 500 weight bhi isi tarah add karo */
-  .sticky-navbar {
-    position: fixed;
-    transition: background 0.3s ease, backdrop-filter 0.3s ease;
-}
+  <!-- style.css - Non Blocking -->
+  <link rel="preload" href="{{ asset('css/style.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+  </noscript>
 
-.sticky-navbar.scrolled {
-    background: rgba(30, 80, 180, 0.55) !important;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-}
-</style>
+  <!-- Fonts - Local -->
+  <style>
+    @font-face {
+      font-family: 'Poppins';
+      src: url('../fonts/poppins-400.woff2') format('woff2');
+      font-weight: 400;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Poppins';
+      src: url('../fonts/poppins-700.woff2') format('woff2');
+      font-weight: 700;
+      font-display: swap;
+    }
+
+    .sticky-navbar {
+      position: fixed;
+      transition: background 0.3s ease, backdrop-filter 0.3s ease;
+    }
+    .sticky-navbar.scrolled {
+      background: rgba(30, 80, 180, 0.55) !important;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+  </style>
+
+  <!-- Elfsight - Scroll pe load hoga (Non Blocking) -->
+  <script>
+    window.addEventListener('scroll', function() {
+      var s = document.createElement('script');
+      s.src = 'https://elfsightcdn.com/platform.js';
+      document.body.appendChild(s);
+    }, {once: true});
+  </script>
+
 </head>
 <body>
 
