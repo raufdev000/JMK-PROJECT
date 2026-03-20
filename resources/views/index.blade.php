@@ -83,7 +83,17 @@
 <link rel="preload" href="{{ asset('css/bootstrap.min.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <link rel="preload" href="{{ asset('css/style.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<script src="https://elfsightcdn.com/platform.js" async></script>
+<!-- Pehle wala hatao -->
+<script src="https://elfsightcdn.com/platform.js" async defer></script>
+
+<!-- Yeh lagao - scroll pe load hoga -->
+<script>
+window.addEventListener('scroll', function() {
+    var s = document.createElement('script');
+    s.src = 'https://elfsightcdn.com/platform.js';
+    document.body.appendChild(s);
+}, {once: true});
+</script>
 <style>
   @font-face {
     font-family: 'Poppins';
