@@ -45,7 +45,7 @@
   <link rel="icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
   <link rel="shortcut icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
   <link rel="apple-touch-icon" href="{{ asset('images/jmk_logo.png') }}">
-  
+  <script src="https://elfsightcdn.com/platform.js" async defer></script>
 
   <!-- Schema Markup -->
   <script type="application/ld+json">
