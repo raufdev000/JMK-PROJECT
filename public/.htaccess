@@ -57,3 +57,8 @@
         Header set Cache-Control "max-age=31536000, public, immutable"
     </FilesMatch>
 </IfModule>
+<IfModule mod_headers.c>
+    <FilesMatch "\.(js|css|webp|jpg|jpeg|png|gif|svg|ico|woff|woff2)$">
+        Header set Cache-Control "max-age=31536000, public, immutable"
+    </FilesMatch>
+</IfModule>

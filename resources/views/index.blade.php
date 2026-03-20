@@ -75,22 +75,14 @@
   </script>
 
   <!-- Preload Hero Image -->
-  <link rel="preload" as="image" href="{{ asset('images/main-banner.webp') }}">
+  <link rel="preload" as="image" href="{{ asset('images/third-banner.webp') }}">
+<!-- Bootstrap - Normal blocking (theek hai, CDN fast hai) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+      crossorigin="anonymous">
 
-  <!-- Bootstrap - Non Blocking -->
-  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
-        as="style" onload="this.onload=null;this.rel='stylesheet'"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
-        crossorigin="anonymous">
-  <noscript>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-  </noscript>
-
-  <!-- style.css - Non Blocking -->
-  <link rel="preload" href="{{ asset('css/style.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript>
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-  </noscript>
+<!-- style.css - Normal blocking -->
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
   <!-- Fonts - Local -->
   <style>
