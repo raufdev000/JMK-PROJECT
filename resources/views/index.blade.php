@@ -76,13 +76,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 <script src="https://elfsightcdn.com/platform.js" async></script>
+<style>
+  .sticky-navbar {
+    position: fixed;
+    transition: background 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.sticky-navbar.scrolled {
+    background: rgba(30, 80, 180, 0.55) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+</style>
 </head>
 <body>
 
 <header class="hero-section font-ui">
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-absolute top-0 start-0 w-100 py-3">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent sticky-navbar top-0 start-0 w-100 py-3">
     <div class="container">
 
       <!-- LOGO LEFT -->
@@ -547,7 +559,20 @@
     </div>
 </section>
   </section>
-
+<section class="map-section">
+  <div class="container-fluid p-0">
+    <div class="map-responsive">
+      <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.417559824508!2d55.27547501502843!3d25.234988983865432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f437cd6392817%3A0xcc79ee19d31144a4!2sAl%20Karama%2C%20Dubai%2C%20UAE!5e0!3m2!1sen!2s!4v1706490000000!5m2!1sen!2s"
+        width="100%" 
+        height="100%" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </div>
+  </div>
+</section>
 </main>
 
 <!-- FOOTER -->
@@ -556,12 +581,12 @@
     <div class="row align-items-start">
 
       <!-- LEFT: Logo & Brand -->
-      <div class="col-md-3 mb-4 mb-md-0 d-flex flex-row align-items-md-start align-items-center text-center text-md-start">
+      <div class="col-md-2 mb-4 mb-md-0 d-flex flex-row align-items-md-start align-items-center text-center text-md-start">
         <img src="{{ asset('images/jmk_logo.png') }}" alt="Logo" height="60" class="mb-2">
       </div>
 
       <!-- CENTER: Navigation Links -->
-      <div class="col-md-4 mb-4 mb-md-0 text-center">
+      <div class="col-md-2 mb-4 mb-md-0 text-center">
         <h4 class="fw-bold mb-3">Quick Links</h4>
         <ul class="list-unstyled">
           <li><a href="{{ route('index') }}" class="footer-link">Home</a></li>
@@ -571,9 +596,24 @@
           <li><a href="{{ route('privacy') }}" class="footer-link">Privacy & Policy</a></li>
         </ul>
       </div>
-
+<!-- SERVICES LINKS -->
+<div class="col-md-4 mb-4 mb-md-0 text-center">
+    <h4 class="fw-bold mb-3">Our Services</h4>
+    <ul class="list-unstyled">
+        <li><a href="{{ route('Shoe') }}" class="footer-link">Shoe Repairing</a></li>
+        <li><a href="{{ route('Watches') }}" class="footer-link">Watch Repairing</a></li>
+        <li><a href="{{ route('Phone') }}" class="footer-link">Phone Repairing</a></li>
+        <li><a href="{{ route('suitcase') }}" class="footer-link">Suitcase Repairing</a></li>
+        <li><a href="{{ route('Access') }}" class="footer-link">Access Card Repairing</a></li>
+        <li><a href="{{ route('leather') }}" class="footer-link">Leather Works</a></li>
+        <li><a href="{{ route('losthome') }}" class="footer-link">Lost Home Keys</a></li>
+        <li><a href="{{ route('lostcar') }}" class="footer-link">Lost Car Keys</a></li>
+        <li><a href="{{ route('Key') }}" class="footer-link">Key Duplicating</a></li>
+        <li><a href="{{ route('Lock') }}" class="footer-link">Lock Repairing</a></li>
+    </ul>
+</div>
       <!-- RIGHT: Contact & Social Icons -->
-      <div class="col-md-5 d-flex flex-column align-items-md-end align-items-center">
+      <div class="col-md-3 d-flex flex-column align-items-md-end align-items-center">
       <h4 class="fw-bold mb-3">Contact us</h4>
         <p class="mb-1 small">📍 JMk – Al Karama, Dubai, UAE</p>
         <p class="mb-1 small">Jumakhanzhob1@gmail.com</p>

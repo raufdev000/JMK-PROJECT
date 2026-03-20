@@ -13,118 +13,7 @@
  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <style>
-    .map-section {
-  margin-top: 60px;
-}
-
-.map-responsive {
-  position: relative;
-  width: 100%;
-  height: 400px;
-}
-
-.map-responsive iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  filter: grayscale(20%) contrast(105%);
-}
-
-    .contact-section {
-  background: #f8f9fa;
-}
-
-/* LEFT SIDE */
-.contact-info {
-  background: #ffffff;
-  border-radius: 14px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
-}
-
-.info-card {
-  padding: 14px 16px;
-  border-radius: 10px;
-  background: #f8f9fa;
-  transition: all 0.3s ease;
-}
-
-.info-card:hover {
-  background: #0d6efd;
-  color: #fff;
-  transform: translateY(-4px);
-}
-
-.info-card:hover p {
-  color: #fff;
-}
-
-/* RIGHT SIDE */
-.contact-form {
-  background: #ffffff;
-  border-radius: 14px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
-}
-
-/* INPUT STYLE */
-.custom-input {
-  border-radius: 8px;
-  padding: 10px 14px;
-  border: 1px solid #ddd;
-  transition: 0.3s;
-}
-
-.custom-input:focus {
-  border-color: #0d6efd;
-  box-shadow: 0 0 0 0.15rem rgba(13,110,253,0.15);
-}
-
-/* BUTTON */
-.submit-btn {
-  background: #0d6efd;
-  border: none;
-  padding: 12px;
-  font-weight: 600;
-  border-radius: 8px;
-  transition: 0.3s;
-}
-
-.glass-card {
-  backdrop-filter: blur(8px);
-  background: rgba(43, 50, 110, 0.7);
-  transition: 0.3s ease;
-}
-
-.glass-card:hover {
-  background: rgba(255,255,255,0.9);
-  box-shadow: 0 15px 35px rgba(13,110,253,0.25);
-}/* More noticeable float */
-@keyframes floatY {
-  0%   { transform: translateY(0px); }
-  25%  { transform: translateY(-15px); }  /* more lift */
-  50%  { transform: translateY(0px); }
-  75%  { transform: translateY(15px); }   /* move down too */
-  100% { transform: translateY(0px); }
-}
-
-/* Apply animation */
-.float-animate {
-  animation: floatY 5s ease-in-out infinite;  /* slower & smoother */
-  will-change: transform;
-}
-
-
-
-@media (max-width: 768px) {
-  .map-responsive { height: 350px; }
-}
-
-@media (max-width: 500px) {
-  .map-responsive { height: 280px; }
-}
-
-
+    
   </style>
   </head>
   <body>
@@ -292,17 +181,17 @@
   </div>
 </section>
  </main> 
-  <footer class="footer-section py-5 bg-white text-dark font-ui">
+ <footer class="footer-section py-5 bg-white text-dark font-ui">
   <div class="container">
     <div class="row align-items-start">
 
       <!-- LEFT: Logo & Brand -->
-      <div class="col-md-3 mb-4 mb-md-0 d-flex flex-row align-items-md-start align-items-center text-center text-md-start">
+      <div class="col-md-2 mb-4 mb-md-0 d-flex flex-row align-items-md-start align-items-center text-center text-md-start">
         <img src="{{ asset('images/jmk_logo.png') }}" alt="Logo" height="60" class="mb-2">
       </div>
 
       <!-- CENTER: Navigation Links -->
-      <div class="col-md-4 mb-4 mb-md-0 text-center">
+      <div class="col-md-2 mb-4 mb-md-0 text-center">
         <h4 class="fw-bold mb-3">Quick Links</h4>
         <ul class="list-unstyled">
           <li><a href="{{ route('index') }}" class="footer-link">Home</a></li>
@@ -312,9 +201,24 @@
           <li><a href="{{ route('privacy') }}" class="footer-link">Privacy & Policy</a></li>
         </ul>
       </div>
-
+<!-- SERVICES LINKS -->
+<div class="col-md-4 mb-4 mb-md-0 text-center">
+    <h4 class="fw-bold mb-3">Our Services</h4>
+    <ul class="list-unstyled">
+        <li><a href="{{ route('Shoe') }}" class="footer-link">Shoe Repairing</a></li>
+        <li><a href="{{ route('Watches') }}" class="footer-link">Watch Repairing</a></li>
+        <li><a href="{{ route('Phone') }}" class="footer-link">Phone Repairing</a></li>
+        <li><a href="{{ route('suitcase') }}" class="footer-link">Suitcase Repairing</a></li>
+        <li><a href="{{ route('Access') }}" class="footer-link">Access Card Repairing</a></li>
+        <li><a href="{{ route('leather') }}" class="footer-link">Leather Works</a></li>
+        <li><a href="{{ route('losthome') }}" class="footer-link">Lost Home Keys</a></li>
+        <li><a href="{{ route('lostcar') }}" class="footer-link">Lost Car Keys</a></li>
+        <li><a href="{{ route('Key') }}" class="footer-link">Key Duplicating</a></li>
+        <li><a href="{{ route('Lock') }}" class="footer-link">Lock Repairing</a></li>
+    </ul>
+</div>
       <!-- RIGHT: Contact & Social Icons -->
-      <div class="col-md-5 d-flex flex-column align-items-md-end align-items-center">
+      <div class="col-md-3 d-flex flex-column align-items-md-end align-items-center">
       <h4 class="fw-bold mb-3">Contact us</h4>
         <p class="mb-1 small">📍 JMk – Al Karama, Dubai, UAE</p>
         <p class="mb-1 small">Jumakhanzhob1@gmail.com</p>

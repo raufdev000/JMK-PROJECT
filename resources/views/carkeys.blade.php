@@ -860,12 +860,12 @@
     <div class="row align-items-start">
 
       <!-- LEFT: Logo & Brand -->
-      <div class="col-md-3 mb-4 mb-md-0 d-flex flex-row align-items-md-start align-items-center text-center text-md-start">
+      <div class="col-md-2 mb-4 mb-md-0 d-flex flex-row align-items-md-start align-items-center text-center text-md-start">
         <img src="{{ asset('images/jmk_logo.png') }}" alt="Logo" height="60" class="mb-2">
       </div>
 
       <!-- CENTER: Navigation Links -->
-      <div class="col-md-4 mb-4 mb-md-0 text-center">
+      <div class="col-md-2 mb-4 mb-md-0 text-center">
         <h4 class="fw-bold mb-3">Quick Links</h4>
         <ul class="list-unstyled">
           <li><a href="{{ route('index') }}" class="footer-link">Home</a></li>
@@ -875,9 +875,24 @@
           <li><a href="{{ route('privacy') }}" class="footer-link">Privacy & Policy</a></li>
         </ul>
       </div>
-
+<!-- SERVICES LINKS -->
+<div class="col-md-4 mb-4 mb-md-0 text-center">
+    <h4 class="fw-bold mb-3">Our Services</h4>
+    <ul class="list-unstyled">
+        <li><a href="{{ route('Shoe') }}" class="footer-link">Shoe Repairing</a></li>
+        <li><a href="{{ route('Watches') }}" class="footer-link">Watch Repairing</a></li>
+        <li><a href="{{ route('Phone') }}" class="footer-link">Phone Repairing</a></li>
+        <li><a href="{{ route('suitcase') }}" class="footer-link">Suitcase Repairing</a></li>
+        <li><a href="{{ route('Access') }}" class="footer-link">Access Card Repairing</a></li>
+        <li><a href="{{ route('leather') }}" class="footer-link">Leather Works</a></li>
+        <li><a href="{{ route('losthome') }}" class="footer-link">Lost Home Keys</a></li>
+        <li><a href="{{ route('lostcar') }}" class="footer-link">Lost Car Keys</a></li>
+        <li><a href="{{ route('Key') }}" class="footer-link">Key Duplicating</a></li>
+        <li><a href="{{ route('Lock') }}" class="footer-link">Lock Repairing</a></li>
+    </ul>
+</div>
       <!-- RIGHT: Contact & Social Icons -->
-      <div class="col-md-5 d-flex flex-column align-items-md-end align-items-center">
+      <div class="col-md-3 d-flex flex-column align-items-md-end align-items-center">
       <h4 class="fw-bold mb-3">Contact us</h4>
         <p class="mb-1 small">📍 JMk – Al Karama, Dubai, UAE</p>
         <p class="mb-1 small">Jumakhanzhob1@gmail.com</p>
