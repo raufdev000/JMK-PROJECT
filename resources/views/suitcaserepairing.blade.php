@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GVZJSM57W3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GVZJSM57W3');
+</script> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Suitcase</title>
@@ -428,6 +436,7 @@
     }
 </style>
   </head>
+
   <body>
  <header>
        <nav class="navbar navbar-expand-lg navbar-dark bg-dark top-0 start-0 w-100 py-3 font-ui" aria-label="Main Navigation">
