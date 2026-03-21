@@ -382,8 +382,7 @@
 
     </div>
   </div>
-</div>
-<footer class="footer-section py-5 bg-white text-dark font-ui">
+</div><footer class="footer-section py-5 bg-white text-dark font-ui">
   <div class="container">
     <div class="row align-items-start">
 
@@ -407,16 +406,20 @@
 <div class="col-md-4 mb-4 mb-md-0 text-center">
     <h4 class="fw-bold mb-3">Our Services</h4>
     <ul class="list-unstyled">
-        <li><a href="{{ route('Shoe') }}" class="footer-link">Shoe Repairing</a></li>
-        <li><a href="{{ route('Watches') }}" class="footer-link">Watch Repairing</a></li>
-        <li><a href="{{ route('Phone') }}" class="footer-link">Phone Repairing</a></li>
-        <li><a href="{{ route('suitcase') }}" class="footer-link">Suitcase Repairing</a></li>
-        <li><a href="{{ route('Access') }}" class="footer-link">Access Card Repairing</a></li>
-        <li><a href="{{ route('leather') }}" class="footer-link">Leather Works</a></li>
-        <li><a href="{{ route('losthome') }}" class="footer-link">Lost Home Keys</a></li>
-        <li><a href="{{ route('lostcar') }}" class="footer-link">Lost Car Keys</a></li>
-        <li><a href="{{ route('Key') }}" class="footer-link">Key Duplicating</a></li>
+           <li><a href="{{ route('suitcase') }}" class="footer-link">Suitcase Repairing</a></li>
+                   <li><a href="{{ route('Key') }}" class="footer-link">Key Duplicating</a></li>
+                           <li><a href="{{ route('lostcar') }}" class="footer-link">Lost Car Keys</a></li>
+                             <li><a href="{{ route('Watches') }}" class="footer-link">Watch Repairing</a></li>
         <li><a href="{{ route('Lock') }}" class="footer-link">Lock Repairing</a></li>
+                <li><a href="{{ route('Phone') }}" class="footer-link">Phone Repairing</a></li>
+        <li><a href="{{ route('Shoe') }}" class="footer-link">Shoe Repairing</a></li>
+              <li><a href="{{ route('leather') }}" class="footer-link">Leather Works</a></li>
+
+   
+        <li><a href="{{ route('Access') }}" class="footer-link">Access Card Repairing</a></li>
+
+        <li><a href="{{ route('losthome') }}" class="footer-link">Lost Home Keys</a></li>
+
     </ul>
 </div>
       <!-- RIGHT: Contact & Social Icons -->

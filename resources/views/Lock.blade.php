@@ -17,7 +17,7 @@
 <link rel="canonical" href="https://jmkrepairs.com/lock-repairing">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <link rel="icon" type="image/png" href="../images/jmk_logo.png">
-<link rel="shortcut icon" type="image/png" href="../images/jmk_logo.png">
+<link rel="shortcut icon                         ;l" type="image/png" href="../images/jmk_logo.png">
 <link rel="apple-touch-icon" href="../images/jmk_logo.png">
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">

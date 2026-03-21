@@ -111,11 +111,9 @@
   <meta name="twitter:title" content="JMK Repairs Dubai - Professional Repair Services">
   <meta name="twitter:description" content="Watch, phone, shoe, lock & leather repair in Al Karama Dubai.">
   <meta name="twitter:image" content="https://jmkrepairs.com/images/jmk_logo.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
-  <link rel="shortcut icon" type="image/png" href="{{ asset('images/jmk_logo.png') }}">
-  <link rel="apple-touch-icon" href="{{ asset('images/jmk_logo.png') }}">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="{{ asset('images/jmk_logo.png') }}">
 
   <!-- Schema Markup -->
   <script type="application/ld+json">
@@ -697,16 +695,20 @@
 <div class="col-md-4 mb-4 mb-md-0 text-center">
     <h4 class="fw-bold mb-3">Our Services</h4>
     <ul class="list-unstyled">
-        <li><a href="{{ route('Shoe') }}" class="footer-link">Shoe Repairing</a></li>
-        <li><a href="{{ route('Watches') }}" class="footer-link">Watch Repairing</a></li>
-        <li><a href="{{ route('Phone') }}" class="footer-link">Phone Repairing</a></li>
-        <li><a href="{{ route('suitcase') }}" class="footer-link">Suitcase Repairing</a></li>
-        <li><a href="{{ route('Access') }}" class="footer-link">Access Card Repairing</a></li>
-        <li><a href="{{ route('leather') }}" class="footer-link">Leather Works</a></li>
-        <li><a href="{{ route('losthome') }}" class="footer-link">Lost Home Keys</a></li>
-        <li><a href="{{ route('lostcar') }}" class="footer-link">Lost Car Keys</a></li>
-        <li><a href="{{ route('Key') }}" class="footer-link">Key Duplicating</a></li>
+           <li><a href="{{ route('suitcase') }}" class="footer-link">Suitcase Repairing</a></li>
+                   <li><a href="{{ route('Key') }}" class="footer-link">Key Duplicating</a></li>
+                           <li><a href="{{ route('lostcar') }}" class="footer-link">Lost Car Keys</a></li>
+                             <li><a href="{{ route('Watches') }}" class="footer-link">Watch Repairing</a></li>
         <li><a href="{{ route('Lock') }}" class="footer-link">Lock Repairing</a></li>
+                <li><a href="{{ route('Phone') }}" class="footer-link">Phone Repairing</a></li>
+        <li><a href="{{ route('Shoe') }}" class="footer-link">Shoe Repairing</a></li>
+              <li><a href="{{ route('leather') }}" class="footer-link">Leather Works</a></li>
+
+   
+        <li><a href="{{ route('Access') }}" class="footer-link">Access Card Repairing</a></li>
+
+        <li><a href="{{ route('losthome') }}" class="footer-link">Lost Home Keys</a></li>
+
     </ul>
 </div>
       <!-- RIGHT: Contact & Social Icons -->
