@@ -246,7 +246,7 @@
     </div>
   </nav>
 
-  <!-- WhatsApp Floating Button -->
+ 
   <div class="whatsapp-floating-btn">
     <a href="https://wa.me/+9710505090296" target="_blank" class="whatsapp-float-link">
       <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
