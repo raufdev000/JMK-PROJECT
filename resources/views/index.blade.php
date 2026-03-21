@@ -1,6 +1,76 @@
 <!doctype html>
 <html lang="en">
 <head>
+  
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "JMK Repairs Dubai",
+  "alternateName": "Juma Khan Shoes & Watches Repairing",
+  "image": "https://jmkrepairs.com/images/jmk_logo.png",
+  "@id": "https://jmkrepairs.com",
+  "url": "https://jmkrepairs.com",
+  "telephone": "+971528623225",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Al Karama",
+    "addressLocality": "Dubai",
+    "addressRegion": "Dubai",
+    "addressCountry": "AE"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.242516294988945,
+    "longitude": 55.30403206639692
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61579666404593"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Repair Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Luggage and Suitcase Repair",
+          "description": "Professional repair services for all types of travel bags, suitcases, and luggage in Dubai."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Watch Repairing" }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Shoe Repairing" }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Leather Restoration" }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Mobile Phone Repairing" }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Key Duplicating" }
+      }
+    ]
+  }
+}
+
+
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GVZJSM57W3"></script>
   <script>
@@ -76,15 +146,12 @@
 
   <!-- Preload Hero Image -->
   <link rel="preload" as="image" href="{{ asset('images/third-banner.webp') }}">
-<!-- Bootstrap - Normal blocking (theek hai, CDN fast hai) -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
-      crossorigin="anonymous">
 
-<!-- style.css - Normal blocking -->
-<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+  <!-- Bootstrap LOCAL + style.css -->
+  <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
-  <!-- Fonts - Local -->
+  <!-- Fonts + Critical CSS -->
   <style>
     @font-face {
       font-family: 'Poppins';
@@ -98,7 +165,6 @@
       font-weight: 700;
       font-display: swap;
     }
-
     .sticky-navbar {
       position: fixed;
       transition: background 0.3s ease, backdrop-filter 0.3s ease;
@@ -110,7 +176,7 @@
     }
   </style>
 
-  <!-- Elfsight - Scroll pe load hoga (Non Blocking) -->
+  <!-- Elfsight - Scroll pe load (Non Blocking) -->
   <script>
     window.addEventListener('scroll', function() {
       var s = document.createElement('script');
