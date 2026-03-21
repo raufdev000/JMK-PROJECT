@@ -2,75 +2,6 @@
 <html lang="en">
 <head>
   
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "JMK Repairs Dubai",
-  "alternateName": "Juma Khan Shoes & Watches Repairing",
-  "image": "https://jmkrepairs.com/images/jmk_logo.png",
-  "@id": "https://jmkrepairs.com",
-  "url": "https://jmkrepairs.com",
-  "telephone": "+971528623225",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Al Karama",
-    "addressLocality": "Dubai",
-    "addressRegion": "Dubai",
-    "addressCountry": "AE"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 25.242516294988945,
-    "longitude": 55.30403206639692
-  },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
-    ],
-    "opens": "00:00",
-    "closes": "23:59"
-  },
-  "sameAs": [
-    "https://www.facebook.com/profile.php?id=61579666404593"
-  ],
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Repair Services",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Luggage and Suitcase Repair",
-          "description": "Professional repair services for all types of travel bags, suitcases, and luggage in Dubai."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": { "@type": "Service", "name": "Watch Repairing" }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": { "@type": "Service", "name": "Shoe Repairing" }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": { "@type": "Service", "name": "Leather Restoration" }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": { "@type": "Service", "name": "Mobile Phone Repairing" }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": { "@type": "Service", "name": "Key Duplicating" }
-      }
-    ]
-  }
-}
-
-
   <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GVZJSM57W3"></script>
   <script>
@@ -140,6 +71,76 @@
     "priceRange": "$$",
     "image": "https://jmkrepairs.com/images/jmk_logo.png"
   }
+  
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "JMK Repairs Dubai",
+  "alternateName": "Juma Khan Shoes & Watches Repairing",
+  "image": "https://jmkrepairs.com/images/jmk_logo.png",
+  "@id": "https://jmkrepairs.com",
+  "url": "https://jmkrepairs.com",
+  "telephone": "+971528623225",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Al Karama",
+    "addressLocality": "Dubai",
+    "addressRegion": "Dubai",
+    "addressCountry": "AE"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.242516294988945,
+    "longitude": 55.30403206639692
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61579666404593"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Repair Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Luggage and Suitcase Repair",
+          "description": "Professional repair services for all types of travel bags, suitcases, and luggage in Dubai."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Watch Repairing" }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Shoe Repairing" }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Leather Restoration" }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Mobile Phone Repairing" }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": { "@type": "Service", "name": "Key Duplicating" }
+      }
+    ]
+  }
+}
+
+
   </script>
 
   <!-- Preload Hero Image -->
@@ -233,13 +234,11 @@
           <li class="nav-item">
             <a class="nav-link" href="{{ route('contact') }}">Contact</a>
           </li>
-
-     <li class="nav-item d-none d-lg-block ms-2">
-<a class="btn btn-primary btn-sm rounded-pill d-flex align-items-center gap-2 px-3 py-2" href="tel:+971505090296">
+<li class="nav-item d-none d-lg-block ms-2">
+    <a class="btn btn-primary rounded-pill d-flex align-items-center gap-2 px-4 py-2" href="tel:+971505090296">
         <i class="bi bi-telephone-fill"></i> Call Us
     </a>
 </li>
-
         
 
         </ul>

@@ -90,7 +90,7 @@ class PageController extends Controller
             'icon_image'       => 'nullable|image|mimes:jpeg,png,jpg,gif,webp|max:1024',
             'og_image'         => 'nullable|image|mimes:jpeg,png,jpg,gif,webp|max:2048',
             'gallery_images.*' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp|max:2048',
-            'meta_title'       => 'nullable|string|max:60',
+            'meta_title'       => 'nullable|string',
             'meta_description' => 'nullable|string|max:160',
             'canonical_url'    => 'nullable|string|max:255',
             'og_title'         => 'nullable|string|max:255',
